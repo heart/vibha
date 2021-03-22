@@ -48,3 +48,8 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Nuxt build
+.nuxt
+
+# logs
+npm-debug.log
