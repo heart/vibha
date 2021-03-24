@@ -200,6 +200,7 @@ export default class Footer extends Vue {}
 .div-contact-right {
   width: 100%;
   display: flex;
+  margin-top: 2%;
 }
 .footer-tel {
   font-family: "SukhumvitSet";
@@ -498,6 +499,15 @@ export default class Footer extends Vue {}
     width: 9%;
     margin: 1%;
   }
+  .footer-location{
+    padding-left: 5%;
+}
+}
+@media screen and (max-width: 1300px) {
+  .location-icon {
+    width: 16%;
+    padding: 2%;
+}
 }
 @media screen and (max-width: 1200px) {
   .phone-ico {
@@ -530,7 +540,7 @@ export default class Footer extends Vue {}
     margin-top: -14%;
   }
   .footer-map {
-    font-size: 20px;
+    font-size: 22px;
   }
   .phone-icon {
     width: 11%;
@@ -560,6 +570,10 @@ export default class Footer extends Vue {}
   .divFlex {
     margin-left: 1%;
   }
+  .location-icon{
+    width: 22%;
+    padding: 4%;
+}
 }
 @media screen and (max-width: 900px) {
   .divFlex {
@@ -571,6 +585,11 @@ export default class Footer extends Vue {}
   }
   .footer-bg{
     height: 30%;
+}
+.phone-icon {
+    width: 11%;
+    margin: 1%;
+    margin-right: 3%;
 }
 }
 @media screen and (max-width: 850px) {
@@ -595,6 +614,19 @@ export default class Footer extends Vue {}
   }
   .footer-bg {
     height: 27%;
+}
+.location-icon{
+  width: 24%;
+    margin-left: -5%;
+
+.footer-map {
+    font-size: 17px;
+}
+}
+}
+@media screen and (max-width: 800px) {
+  .footer-map {
+    font-size: 16px;
 }
 }
 @media screen and (max-width: 768px) {

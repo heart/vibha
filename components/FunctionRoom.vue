@@ -1,9 +1,10 @@
 <template>
   <div class="function-page" id="gallery">
+    <!-- desktop -->
     <div class="function-top function-container-desktop">
       <div class="function-area">
         <!-- <div @click="onClick11()" class="square pointer"></div> -->
-         <div @click="onClick11" v-if="img11 == true" @mouseover="imgShow12()" class="function-title">
+         <div @click="onClick11()" v-if="img11 == true" @mouseover="imgShow12()" class="function-title">
           <div class="function-title-container">
             <p>Double Volume <br />Living room & Dining room</p>
           </div>
@@ -100,7 +101,8 @@
         <img @click="onClick24()" @mouseover="imgShow24()" @mouseleave="imgOut24()" class="function-container pointer" src="/func2-4.jpg"/>
       </div>
     </div>
-
+    <!-- desktop -->
+    
     <!-- mobile -->
     <div class="function-setwidth-mobile">
       <div class="function-setwidth">
