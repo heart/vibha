@@ -431,6 +431,14 @@ export default class FunctionRoom extends Vue {
     text-align: center;
   }
 }
+@media screen and (max-width: 1000px) {
+  .function-top {
+    height: 410px;
+  }
+  .function-bottom {
+    height: 410px;
+  }
+}
 @media screen and (max-width: 800px) {
   .function-container-desktop {
     display: none;

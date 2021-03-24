@@ -288,17 +288,19 @@ export default class Footer extends Vue {}
   margin-top: 3%;
 }
 .phone-icon {
-  width: 8%;
-  margin: 2%;
+  width: 9%;
+  margin: 1%;
+  margin-right: 3%;
 }
 .phone-icon-left {
   width: 7%;
   margin: 2%;
 }
 .mail-icon {
-  width: 8%;
-  margin: 2%;
+  width: 9%;
+  margin: 1%;
   margin-right: 4%;
+  padding-top: 1% ;
 }
 .location-icon {
   width: 10%;
@@ -307,8 +309,8 @@ export default class Footer extends Vue {}
 }
 .line-icon {
   width: 12%;
+  padding: 1%;
 }
-
 .divFlex-left {
   display: flex;
   justify-content: center;
@@ -318,7 +320,6 @@ export default class Footer extends Vue {}
   display: flex;
   flex-direction: column;
   width: 10%;
-  // margin-left: -25%;
 }
 .divFlex-center img {
   width: 100%;
@@ -355,6 +356,7 @@ export default class Footer extends Vue {}
 .footer-location {
   display: flex;
   width: 100%;
+  padding-left: 7%;
 }
 .footer-location a {
   width: 100%;

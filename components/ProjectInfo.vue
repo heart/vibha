@@ -352,11 +352,28 @@ div.vertical-line {
 .project-info-right-mobile {
   display: none;
 }
-@media screen and (max-width: 1543px) {
+@media screen and (max-width: 1600px) {
   .project-plan {
     width: 35%;
     font-size: 40px;
   }
+  .project-descriptio {
+    font-size: 35px;
+}
+}
+@media screen and (max-width: 1500px) {
+  .project-plan {
+    width: 35%;
+    font-size: 40px;
+  }
+  .project-description{
+    font-size: 33px;
+}
+}
+@media screen and (max-width: 1500px) {
+  .project-description{
+    font-size: 32px;
+}
 }
 @media screen and (max-width: 1300px) {
   .type-actve {
@@ -393,7 +410,7 @@ div.vertical-line {
     font-size: 30px;
   }
   .project-description {
-    font-size: 30px;
+    font-size: 29px;
   }
   .project-type-bottom {
     width: 50%;
@@ -402,6 +419,14 @@ div.vertical-line {
     padding-bottom: 10%;
   }
 }
+@media screen and (max-width: 1000px) {
+  .project-description{
+    font-size: 25px;
+}
+.project-header {
+    font-size: 60px;
+}
+}
 @media screen and (max-width: 900px) {
   .type-actve {
     font-size: 30px;
@@ -409,6 +434,9 @@ div.vertical-line {
   .type-non-actve {
     font-size: 30px;
   }
+  .project-description{
+    font-size: 22px;
+}
 }
 @media screen and (max-width: 825px) {
   .project-plan {

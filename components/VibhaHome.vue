@@ -69,22 +69,22 @@ export default class VibhaHome extends Vue {}
   font-family: "Butler_Medium_Stencil";
   src: url(/fonts/Butler_Medium_Stencil.ttf);
 }
-.Vibhahome-img {
-  text-align: right;
-  width: 90%;
-  height: 100%;
-}
 .Vibhahome-page {
   background-color: #93a49e;
   width: 100%;
   font-family: "DB-Ozone-X";
+  // height: 200%;
+}
+.Vibhahome-img {
+  text-align: right;
+  width: 90%;
 }
 .Vibhahome-page-row {
   display: flex;
 }
 .Vibhahome-contact {
   width: 10%;
-  padding-top: 29%;
+  padding-top: 22%;
   text-align: center;
 }
 .Vibhahome-logo {
