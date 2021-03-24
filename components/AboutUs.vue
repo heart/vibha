@@ -81,17 +81,13 @@
       <div class="kcc-container">
         <img class="kcc-img" src="/Mahidol-salaya.jpg" alt="" />
         <p class="kcc-title">
-          มหาวิทยาลัยมหิดล 
-          คณะวิศวกรรมศาสตร์ <br />
+          มหาวิทยาลัยมหิดล คณะวิศวกรรมศาสตร์ <br />
           วิทยาเขตศาลายา
         </p>
       </div>
       <div class="kcc-container">
         <img class="kcc-img" src="/thammasat.jpg" alt="" />
-        <p class="kcc-title">
-          มหาวิทยาลัยธรรมศาสตร์
-          ศูนย์ลำปาง
-        </p>
+        <p class="kcc-title">มหาวิทยาลัยธรรมศาสตร์ ศูนย์ลำปาง</p>
       </div>
     </div>
   </div>
@@ -109,6 +105,7 @@ export default class AboutUs extends Vue {}
   font-family: "DB-Ozone-X";
   src: url(/fonts/DB-Ozone-X.ttf);
 }
+
 .about-us-page {
   background-color: #dcd5cd;
   font-family: "DB-Ozone-X";
@@ -189,7 +186,162 @@ div.vertical-line {
 .kcc-title-padding {
   margin-left: 7%;
 }
+@media screen and (max-width: 1700px) {
+  .kcc-title {
+    margin-top: -20%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .kcc {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .kcc {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .kcc {
+    height: 245px;
+  }
+  .kcc-title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .kcc-title {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .kcc-title {
+    margin-top: -22%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .kcc {
+    height: 190px;
+  }
+  .kcc-title {
+    margin-top: -19%;
+    font-size: 15px;
+  }
+  .kcc-title {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .kcc-title {
+    margin-top: -21%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .kcc {
+    height: 170px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-us-description {
+    font-size: 12px;
+    margin: 2%;
+    padding-right: 15%;
+  }
+  .textAlignVer {
+    font-size: 25px;
+    margin-left: 31%;
+    margin-top: 160%;
+  }
+  div.vertical-line {
+    width: 2px;
+    margin-left: 44%;
+  }
+  .kcc-desktop {
+    display: none;
+  }
+  .kcc-mobile {
+    display: flex;
+  }
+  .about-us-logo {
+    padding-top: 37%;
+  }
+  .kcc {
+    height: 100%;
+  }
+  .about-us-logo {
+    width: 70%;
+  }
+  .kcc-container {
+    width: 50%;
+    height: 290px;
+}
+.kcc-title{
+    font-size: 20px;
+        margin-top: -36%;
+}
+}
 @media screen and (max-width: 700px) {
+  .kcc-title {
+    margin-top: -40%;
+}
+}
+@media screen and (max-width: 600px) {
+  .kcc-title {
+    margin-top: -37%;
+    font-size: 16px;
+}
+.kcc-container {
+    height: 230px;
+}
+}
+@media screen and (max-width: 500px) {
+  .kcc-title {
+    margin-top: -37%;
+    font-size: 16px;
+}
+.kcc-container {
+    height: 190px;
+}
+}
+@media screen and (max-width: 400px) {
+  .about-us-description {
+    font-size: 12px;
+    margin: 2%;
+    padding-right: 15%;
+  }
+  .textAlignVer {
+    font-size: 25px;
+    margin-left: 31%;
+    margin-top: 160%;
+  }
+  div.vertical-line {
+    width: 2px;
+    margin-left: 44%;
+  }
+  .kcc-desktop {
+    display: none;
+  }
+  .kcc-mobile {
+    display: flex;
+  }
+  .kcc-container {
+    width: 50%;
+    height: 150px;
+  }
+  .about-us-logo {
+    padding-top: 37%;
+  }
+  .kcc {
+    height: 100%;
+  }
+  .about-us-logo {
+    width: 70%;
+  }
+  .kcc-title {
+    font-size: 12px;
+}
+}
+@media screen and (max-width: 375px) {
   .about-us-description {
     font-size: 12px;
     margin: 2%;
@@ -226,80 +378,12 @@ div.vertical-line {
   .kcc-title {
     font-size: 10px;
     margin-top: -40%;
-  margin-left: 2%;
+    margin-left: 2%;
   }
   .kcc-title-padding {
-  margin-left: 10%;
-}
-}
-@media screen and (max-width: 768px) {
-  .about-us-description {
-    font-size: 12px;
-    margin: 2%;
-    padding-right: 15%;
-  }
-  .textAlignVer {
-    font-size: 25px;
-    margin-left: 31%;
-    margin-top: 160%;
-  }
-  div.vertical-line {
-    width: 2px;
-    margin-left: 44%;
-  }
-  .kcc-desktop {
-    display: none;
-  }
-  .kcc-mobile {
-    display: flex;
-  }
-  .kcc-container {
-    width: 50%;
-    height: 250px;
-  }
-  .about-us-logo {
-    padding-top: 37%;
-  }
-  .kcc {
-    height: 100%;
-  }
-  .about-us-logo {
-    width: 70%;
+    margin-left: 10%;
   }
 }
-@media screen and (max-width: 400px) {
-  .about-us-description {
-    font-size: 12px;
-    margin: 2%;
-    padding-right: 15%;
-  }
-  .textAlignVer {
-    font-size: 25px;
-    margin-left: 31%;
-    margin-top: 160%;
-  }
-  div.vertical-line {
-    width: 2px;
-    margin-left: 44%;
-  }
-  .kcc-desktop {
-    display: none;
-  }
-  .kcc-mobile {
-    display: flex;
-  }
-  .kcc-container {
-    width: 50%;
-    height: 150px;
-  }
-  .about-us-logo {
-    padding-top: 37%;
-  }
-  .kcc {
-    height: 100%;
-  }
-  .about-us-logo {
-    width: 70%;
-  }
-}
+
+
 </style>

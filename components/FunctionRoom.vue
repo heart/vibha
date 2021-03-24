@@ -2,64 +2,82 @@
   <div class="function-page" id="gallery">
     <div class="function-top function-container-desktop">
       <div class="function-area">
-        <div @click="onClick11()" class="square pointer"></div>
-        <div @click="onClick11()" class="function-title pointer">
+        <!-- <div @click="onClick11()" class="square pointer"></div> -->
+         <div @click="onClick11" v-if="img11 == true" @mouseover="imgShow12()" class="function-title">
           <div class="function-title-container">
-            <p>
-              Double Volume <br />
-              Living room & Dining room
-            </p>
+            <p>Double Volume <br />Living room & Dining room</p>
           </div>
           <div class="function-title-container">
             <img class="add-icon" src="~assets/icon/add-icon.png" />
           </div>
         </div>
-        <img
-          @click="onClick11()"
-          class="function-container"
-          src="/func1-1.jpg"
-        />
+        <img @click="onClick11()" @mouseover="imgShow11()" @mouseleave="imgOut11()" class="function-container pointer" src="/func1-1.jpg"/>
       </div>
       <div class="function-area">
-        <img
-          @click="onClick12()"
-          class="function-container"
-          src="/func1-2.jpg"
-        />
+        <!-- <div @click="onClick12()" class="square pointer"></div> -->
+        <div @click="onClick12()" v-if="img12 == true" @mouseover="imgShow12()" class="function-title">
+          <div class="function-title-container">
+            <p>Pantry</p>
+          </div>
+          <div class="function-title-container">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick12()" @mouseover="imgShow12()" @mouseleave="imgOut12()" class="function-container pointer" src="/func1-2.jpg"/>
       </div>
       <div class="function-area">
-        <img
-          @click="onClick13()"
-          class="function-container"
-          src="/func1-3.jpg"
-        />
+        <!-- <div @click="onClick13()" class="square pointer"></div> -->
+        <div @click="onClick13()" v-if="img13 == true" @mouseover="imgShow13()" class="function-title">
+          <div class="function-title-container">
+            <p>Restroom</p>
+          </div>
+          <div class="function-title-container">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick13()" @mouseover="imgShow13()" @mouseleave="imgOut13()" class="function-container pointer" src="/func1-3.jpg"/>
       </div>
       <div class="function-area">
-        <img
-          @click="onClick14()"
-          class="function-container"
-          src="/func1-4.jpg"
-        />
+        <!-- <div @click="onClick14()" class="square pointer"></div> -->
+        <div @click="onClick14()" v-if="img14 == true" @mouseover="imgShow14()" class="function-title">
+          <div class="function-title-container">
+            <p>Elderly functionelderly</p>
+          </div>
+          <div class="function-title-container">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick14()" @mouseover="imgShow14()" @mouseleave="imgOut14()" class="function-container pointer" src="/func1-4.jpg"/>
       </div>
     </div>
     <div class="function-bottom function-container-desktop">
       <div class="function-area">
-        <img
-          @click="onClick21()"
-          class="function-container"
-          src="/func2-1.jpg"
-        />
+        <!-- <div @click="onClick21()" class="square pointer"></div> -->
+        <div @click="onClick21()" v-if="img21 == true" @mouseover="imgShow21()" class="function-title">
+          <div class="function-title-container">
+            <p>BALCONY & POOL</p>
+          </div>
+          <div class="function-title-container">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick21()" @mouseover="imgShow21()" @mouseleave="imgOut21()" class="function-container pointer" src="/func2-1.jpg"/>
       </div>
       <div class="function-area">
-        <img
-          @click="onClick22()"
-          class="function-container"
-          src="/func2-2.jpg"
-        />
+        <!-- <div @click="onClick22()" class="square pointer"></div> -->
+        <div @click="onClick22()" v-if="img22 == true" @mouseover="imgShow22()" class="function-title">
+          <div class="function-title-container">
+            <p>MASTER BEDROOM</p>
+          </div>
+          <div class="function-title-container">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick22()" @mouseover="imgShow22()" @mouseleave="imgOut22()" class="function-container pointer" src="/func2-2.jpg"/>
       </div>
       <div class="function-area">
-        <div @click="onClick23()" class="square pointer"></div>
-        <div @click="onClick23()" class="function-title pointer">
+        <!-- <div @click="onClick23()" class="square pointer"></div> -->
+        <div @click="onClick23()" v-if="img23 == true" @mouseover="imgShow23()" class="function-title">
           <div class="function-title-container">
             <p>The Green Space</p>
           </div>
@@ -67,18 +85,19 @@
             <img class="add-icon" src="~assets/icon/add-icon.png" />
           </div>
         </div>
-        <img
-          @click="onClick23()"
-          class="function-container"
-          src="/func2-3.jpg"
-        />
+        <img @click="onClick23()" @mouseover="imgShow23()" @mouseleave="imgOut23()" class="function-container pointer" src="/func2-3.jpg"/>
       </div>
       <div class="function-area">
-        <img
-          @click="onClick24()"
-          class="function-container"
-          src="/func2-4.jpg"
-        />
+        <!-- <div @click="onClick24()" class="square pointer"></div> -->
+        <div @click="onClick24()" v-if="img24 == true" @mouseover="imgShow24()" class="function-title">
+          <div class="function-title-container">
+            <p>The Green Space</p>
+          </div>
+          <div class="function-title-container">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick24()" @mouseover="imgShow24()" @mouseleave="imgOut24()" class="function-container pointer" src="/func2-4.jpg"/>
       </div>
     </div>
 
@@ -86,96 +105,98 @@
     <div class="function-setwidth-mobile">
       <div class="function-setwidth">
         <div class="function-area">
-          <div @click="onClick11()" class="square pointer"></div>
-          <div @click="onClick11()" class="function-title pointer">
-            <div class="function-title-container-left">
-              <p>
-                Double Volume <br />
-                Living room & Dining room
-              </p>
-            </div>
-            <div class="function-title-container-left">
-              <img class="add-icon" src="~assets/icon/add-icon.png" />
-            </div>
+          <div @click="onClick11()" v-if="img11 == true" @mouseover="imgShow11()" class="function-title">
+          <div class="function-title-container-left">
+            <p>Double Volume <br />Living room & Dining room</p>
           </div>
-          <img
-            @click="onClick11()"
-            class="function-container function-color"
-            src="/func1-1.jpg"
-          />
+          <div class="function-title-container-left">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick11()" @mouseover="imgShow11()" @mouseleave="imgOut11()" class="function-container pointer" src="/func1-1.jpg"/>
         </div>
         <div class="function-area">
-          <img
-            @click="onClick12()"
-            class="function-container"
-            src="/func1-2.jpg"
-          />
+          <div @click="onClick12()" v-if="img12 == true" @mouseover="imgShow12()" class="function-title">
+          <div class="function-title-container-right">
+            <p>Pantry</p>
+          </div>
+          <div class="function-title-container-right">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick12()" @mouseover="imgShow12()" @mouseleave="imgOut12()" class="function-container pointer" src="/func1-2.jpg"/>
         </div>
       </div>
       <div class="function-setwidth">
         <div class="function-area">
-          <img
-            @click="onClick13()"
-            class="function-container"
-            src="/func1-3.jpg"
-          />
+          <div @click="onClick13()" v-if="img13 == true" @mouseover="imgShow13()" class="function-title">
+          <div class="function-title-container-right">
+            <p>Restroom</p>
+          </div>
+          <div class="function-title-container-right">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick13()" @mouseover="imgShow13()" @mouseleave="imgOut13()" class="function-container pointer" src="/func1-3.jpg"/>
         </div>
         <div class="function-area">
-          <img
-            @click="onClick14()"
-            class="function-container"
-            src="/func1-4.jpg"
-          />
+        <div @click="onClick14()" v-if="img14 == true" @mouseover="imgShow14()" class="function-title">
+          <div class="function-title-container-right">
+            <p>Elderly functionelderly</p>
+          </div>
+          <div class="function-title-container-right">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick14()" @mouseover="imgShow14()" @mouseleave="imgOut14()" class="function-container pointer" src="/func1-4.jpg"/>
         </div>
       </div>
       <div class="function-setwidth">
         <div class="function-area">
-          <img
-            @click="onClick21()"
-            class="function-container"
-            src="/func2-1.jpg"
-          />
+          <div @click="onClick21()" v-if="img21 == true" @mouseover="imgShow21()" class="function-title">
+          <div class="function-title-container-left">
+            <p>BALCONY & POOL</p>
+          </div>
+          <div class="function-title-container-left">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick21()" @mouseover="imgShow21()" @mouseleave="imgOut21()" class="function-container pointer" src="/func2-1.jpg"/>
         </div>
         <div class="function-area">
-          <div @click="onClick22()" class="square pointer"></div>
-          <div @click="onClick22()" class="function-title pointer">
-            <div class="function-title-container-right">
-              <p>Elderly Function</p>
-            </div>
-            <div class="function-title-container-right">
-              <img class="add-icon" src="~assets/icon/add-icon.png" />
-            </div>
+          <div @click="onClick22()" v-if="img22 == true" @mouseover="imgShow22()" class="function-title">
+          <div class="function-title-container-right">
+            <p>MASTER BEDROOM</p>
           </div>
-          <img
-            @click="onClick22()"
-            class="function-container"
-            src="/func2-2.jpg"
-          />
+          <div class="function-title-container-right">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick22()" @mouseover="imgShow22()" @mouseleave="imgOut22()" class="function-container pointer" src="/func2-2.jpg"/>
         </div>
       </div>
       <div class="function-setwidth">
         <div class="function-area">
-          <div @click="onClick23()" class="square pointer"></div>
-          <div @click="onClick23()" class="function-title pointer">
-            <div class="function-title-container-left">
-              <p>The Green Space</p>
-            </div>
-            <div class="function-title-container-left">
-              <img class="add-icon" src="~assets/icon/add-icon.png" />
-            </div>
+          <div @click="onClick23()" v-if="img23 == true" @mouseover="imgShow23()" class="function-title">
+          <div class="function-title-container-left">
+            <p>The Green Space</p>
           </div>
-          <img
-            @click="onClick23()"
-            class="function-container"
-            src="/func2-3.jpg"
-          />
+          <div class="function-title-container-left">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick23()" @mouseover="imgShow23()" @mouseleave="imgOut23()" class="function-container pointer" src="/func2-3.jpg"/>
         </div>
         <div class="function-area">
-          <img
-            @click="onClick24()"
-            class="function-container"
-            src="/func2-4.jpg"
-          />
+        <div @click="onClick24()" v-if="img24 == true" @mouseover="imgShow24()" class="function-title">
+          <div class="function-title-container-right">
+            <p>The Green Space</p>
+          </div>
+          <div class="function-title-container-right">
+            <img class="add-icon" src="~assets/icon/add-icon.png" />
+          </div>
+        </div>
+        <img @click="onClick24()" @mouseover="imgShow24()" @mouseleave="imgOut24()" class="function-container pointer" src="/func2-4.jpg"/>
         </div>
       </div>
     </div>
@@ -243,7 +264,63 @@ export default class FunctionRoom extends Vue {
   function2_2 = false;
   function2_3 = false;
   function2_4 = false;
+  img11 = false;
+  img12 = false;
+  img13 = false;
+  img14 = false;
+  img21 = false;
+  img22 = false;
+  img23 = false;
+  img24 = false;
 
+  imgShow11() {
+    this.img11 = true;
+  }
+  imgOut11() {
+    this.img11 = false;
+  }
+  imgShow12() {
+    this.img12 = true;
+  }
+  imgOut12() {
+    this.img12 = false;
+  }
+  imgShow13() {
+    this.img13 = true;
+  }
+  imgOut13() {
+    this.img13 = false;
+  }
+  imgShow14() {
+    this.img14 = true;
+  }
+  imgOut14() {
+    this.img14 = false;
+  }
+  imgShow21() {
+    this.img21 = true;
+  }
+  imgOut21() {
+    this.img21 = false;
+  }
+  imgShow22() {
+    this.img22 = true;
+  }
+  imgOut22() {
+    this.img22 = false;
+  }
+  imgShow23() {
+    this.img23 = true;
+  }
+  imgOut23() {
+    this.img23 = false;
+  }
+  imgShow24() {
+    this.img24 = true;
+  }
+  imgOut24() {
+    this.img24 = false;
+  }
   onClick11() {
     this.function1_1 = !this.function1_1;
   }
@@ -295,7 +372,10 @@ export default class FunctionRoom extends Vue {
 }
 .function-container {
   height: 100%;
-  cursor: pointer;
+  width: 100%;
+}
+.function-container:hover {
+  opacity: 0.5;
 }
 .function-button {
   height: 600px;
@@ -303,17 +383,15 @@ export default class FunctionRoom extends Vue {
 .function-setwidth-mobile {
   display: none;
 }
-.function-color {
-  opacity: 0.4;
-  background-color: black;
-}
 .square {
   width: 25%;
   height: 600px;
-  background-color: grey;
-  opacity: 0.7;
   position: absolute;
   z-index: 1;
+}
+.square:hover{
+  background-color: black;
+  opacity: 0.7;
 }
 .pointer {
   cursor: pointer;
@@ -369,14 +447,18 @@ export default class FunctionRoom extends Vue {
     display: flex;
     height: 500px;
   }
-  .square {
-    width: 50%;
-    height: 500px;
-    background-color: grey;
-    opacity: 0.7;
-    position: absolute;
-    z-index: 1;
-  }
+//   .square {
+//     width: 50%;
+//     height: 500px;
+//     background-color: grey;
+//     opacity: 1;
+//     position: absolute;
+//     z-index: 1;
+//   }
+
+// .square:hover{
+//   opacity: 0.7;
+// }
   .function-title {
     font-size: 15px;
     justify-items: center;
@@ -408,14 +490,17 @@ export default class FunctionRoom extends Vue {
     display: flex;
     height: 350px;
   }
-  .square {
-    width: 50%;
-    height: 350px;
-    background-color: grey;
-    opacity: 0.7;
-    position: absolute;
-    z-index: 1;
-  }
+//   .square {
+//     width: 50%;
+//     height: 350px;
+//     background-color: grey;
+//     opacity: 1;
+//     position: absolute;
+//     z-index: 1;
+//   }
+//   .square:hover{
+//   opacity: 0.7;
+// }
   .function-title {
     font-size: 15px;
     justify-items: center;
@@ -450,11 +535,14 @@ export default class FunctionRoom extends Vue {
   .square {
     width: 50%;
     height: 250px;
-    background-color: grey;
-    opacity: 0.7;
+    
     position: absolute;
     z-index: 1;
   }
+  .square:hover{
+  opacity: 0.7;
+  background-color: grey;
+}
   .function-title {
     font-size: 15px;
     justify-items: center;

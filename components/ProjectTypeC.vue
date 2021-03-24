@@ -4,14 +4,21 @@
       <div class="project-type-top">
         <img class="type-bg" src="/type-bg.jpg" alt="" />
         <div class="project-type-left-padding">
-          <p class="project-type-header">T Y P E&nbsp;&nbsp;&nbsp;C</p>
+          <span class="type-non-actve">
+            <p class="type-padding">T</p>
+            <p class="type-padding">Y</p>
+            <p class="type-padding">P</p>
+            <p class="type-padding">E</p>
+            &nbsp;&nbsp;
+            <p class="type-padding">C</p>
+          </span>
           <br />
           <p class="project-type-Topic project-paddingtop">LAND AREA :</p>
           <p class="project-type-description">96.41 SQ.WAH</p>
           <br />
           <p class="project-type-Topic">USABLE AREA :</p>
           <p class="project-type-description">
-            952.75 SQ. METRE 
+            952.75 SQ. METRE
             <span class="project-description-inner">(Rooftop included)</span>
           </p>
         </div>
@@ -103,7 +110,8 @@
           <div class="type-container powerRoom-container">
             <div class="type-img-container powerRoom-icon">
               <img class="type-img" src="~assets/icon/type-1_4.png" />
-            </div>&nbsp;
+            </div>
+            &nbsp;
             <div class="type-title-container">
               <p class="type-title">1 Power room</p>
             </div>
@@ -133,16 +141,16 @@
       <div class="square"></div>
       <div class="project-type-option">
         <div class="is-active">
-          <p @click="onClick_FirstFloor">1<sup>ST</sup> FLOOR PLAN</p>
+          <p @click="onClick_FirstFloor">1<sup>ST</sup> FLOOR</p>
         </div>
         <div class="is-active">
-          <p @click="onClick_SecondFloor">2<sup>ND</sup> FLOOR PLAN</p>
+          <p @click="onClick_SecondFloor">2<sup>ND</sup> FLOOR</p>
         </div>
         <div class="is-active">
           <p @click="onClick_SecondMFloor">2M FLOOR</p>
         </div>
         <div class="is-active">
-          <p @click="onClick_ThirdFloor">3<sup>RD</sup> FLOOR PLAN</p>
+          <p @click="onClick_ThirdFloor">3<sup>RD</sup> FLOOR</p>
         </div>
         <div class="is-active">
           <p @click="onClick_Rooftop">ROOFTOP</p>
@@ -186,7 +194,7 @@ import Rooftop from "../components/TypeC/Rooftop.vue";
     Rooftop,
   },
 })
-export default class ProjectTypeA extends Vue {
+export default class ProjectTypeB extends Vue {
   FirstFloor = false;
   SecondFloor = false;
   SecondMFloor = false;
@@ -243,13 +251,8 @@ export default class ProjectTypeA extends Vue {
 .project-type-left {
   width: 40%;
 }
-.project-type-header {
-  border: 1px solid #455a3f;
-  color: #455a3f;
-  width: 34%;
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
+.project-type-img {
+  width: 100%;
 }
 .project-type-Topic {
   font-size: 40px;
@@ -264,9 +267,6 @@ export default class ProjectTypeA extends Vue {
 .project-description-inner {
   color: #727a7d;
   font-size: 20px;
-}
-.project-type-img{
-  width: 100%;
 }
 .type-container {
   display: flex;
@@ -302,7 +302,6 @@ export default class ProjectTypeA extends Vue {
   width: 100%;
   padding-top: 30%;
   justify-content: center;
-  // margin-left: -5%;
 }
 .type-container-right {
   margin-top: 1%;
@@ -313,7 +312,6 @@ export default class ProjectTypeA extends Vue {
   position: absolute;
   z-index: 1;
   opacity: 1;
-  height: 134%;
   width: 20%;
   padding-top: 6%;
   color: black;
@@ -400,13 +398,46 @@ export default class ProjectTypeA extends Vue {
   margin-top: -10%;
   margin-left: -5%;
 }
-.project-paddingtop{
+.project-paddingtop {
   padding-top: 4%;
 }
-@media screen and (max-width: 1300px) {
-  .project-type-header {
-    font-size: 34px;
+.type-non-actve {
+  border: 1px solid #455a3f;
+  color: #455a3f;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  margin: 2%;
+  width: 35%;
+  justify-content: center;
+  margin-left: -2%;
+}
+.type-padding {
+  padding: 2%;
+}
+@media screen and (max-width: 1700px) {
+  .project-type-bottom {
+    padding-top: 20%;
   }
+  .square {
+    height: 132%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .project-type-bottom {
+    padding-top: 20%;
+  }
+  .project-type-Topic {
+    font-size: 30px;
+  }
+  .project-type-description {
+    font-size: 20px;
+  }
+  .type-title {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1400px) {
   .project-type-Topic {
     font-size: 30px;
   }
@@ -426,7 +457,46 @@ export default class ProjectTypeA extends Vue {
     font-size: 18px;
   }
   .square {
-    height: 115%;
+    height: 133%;
+  }
+  .type-non-actve {
+    font-size: 40px;
+  }
+  .type-img-container {
+    width: 23%;
+  }
+  .type-title {
+    font-size: 24px;
+  }
+  .project-type-left-padding {
+    padding-top: 23%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .square {
+    height: 124%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .project-type-Topic {
+    font-size: 25px;
+  }
+  .project-type-description {
+    font-size: 17px;
+  }
+  .square {
+    height: 121%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .type-title {
+    font-size: 22px;
+  }
+  .project-type-description {
+    font-size: 15px;
+  }
+  .square {
+    height: 105%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -445,23 +515,15 @@ export default class ProjectTypeA extends Vue {
     z-index: -1;
     width: 100%;
   }
-  .project-type-header {
-    font-size: 35px;
-    border: 1px solid #455a3f;
-    color: #455a3f;
-    width: 50%;
-    font-weight: bold;
-    text-align: center;
-  }
   .project-type-Topic {
     font-size: 25px;
     font-weight: bold;
   }
   .project-type-description {
-      font-size: 20px;
+    font-size: 20px;
   }
   .project-description-inner {
-      font-size: 18px;
+    font-size: 18px;
   }
   .project-description-inner {
     color: #727a7d;
@@ -478,7 +540,6 @@ export default class ProjectTypeA extends Vue {
     position: absolute;
     z-index: 1;
     opacity: 1;
-    height: 134%;
     width: 20%;
     padding-top: 6%;
     color: black;
@@ -494,11 +555,9 @@ export default class ProjectTypeA extends Vue {
   }
   .project-type-bottom {
     width: 50%;
-    padding-top: 20%;
-    padding-left: 2%;
+    padding-top: 12%;
     padding-bottom: 10%;
   }
-
   .type-bg {
     height: 100%;
   }
@@ -518,12 +577,11 @@ export default class ProjectTypeA extends Vue {
     flex-direction: column;
   }
   .square {
-    height: 82.7%;
+    height: 163.7%;
     width: 35%;
   }
   .project-type-option {
     width: 35%;
-    height: 0%;
   }
 
   .type-img-container {
@@ -533,28 +591,109 @@ export default class ProjectTypeA extends Vue {
     width: 80%;
   }
   .powerRoom-icon {
-  padding: 2%;
-  width: 12%;
-  margin-left: 3%;
+    padding: 2%;
+    width: 12%;
+    margin-left: 3%;
+  }
+  .car-icon {
+    padding: 2%;
+    height: 80%;
+  }
+  .rooftop-icon {
+    padding: 2%;
+    height: 80%;
+    margin-top: 7%;
+  }
+  .bathroom-icon {
+    padding: 2%;
+  }
+  .bedroom-icon {
+    padding: 3%;
+    height: 80%;
+  }
 }
-.car-icon {
-  padding: 2%;
-  height: 80%;
+@media screen and (max-width: 900px) {
+  .square {
+    height: 143.7%;
+  }
+  .type-non-actve {
+    width: 40%;
+  }
 }
-.rooftop-icon {
-  padding: 2%;
-  height: 80%;
-  margin-top: 7%;
+@media screen and (max-width: 800px) {
+  .square {
+    height: 127.7%;
+  }
+  .type-non-actve {
+    font-size: 35px;
+  }
 }
-.bathroom-icon {
-  padding: 2%;
+@media screen and (max-width: 700px) {
+  .square {
+    height: 111.7%;
+  }
+  .type-non-actve {
+    font-size: 35px;
+  }
+  .project-type-description {
+    font-size: 18px;
+  }
+  .type-title {
+    font-size: 18px;
+  }
 }
-.bedroom-icon {
-  padding: 3%;
-  height: 80%;
+@media screen and (max-width: 600px) {
+  .square {
+    height: 95.7%;
+  }
+  .type-non-actve {
+    font-size: 27px;
+  }
+  .project-type-option {
+    font-size: 20px;
+  }
+  .project-type-bottom {
+    padding-left: 2%;
+  }
 }
+@media screen and (max-width: 500px) {
+  .square {
+    height: 79.7%;
+  }
+  .type-non-actve {
+    font-size: 23px;
+  }
+  .project-type-option {
+    font-size: 17px;
+  }
+  .project-type-bottom {
+    padding-left: 2%;
+  }
+  .project-type-Topic {
+    font-size: 20px;
+  }
+  .project-type-description {
+    font-size: 12px;
+  }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
+  .square {
+    height: 64%;
+  }
+  .type-non-actve {
+    width: 50%;
+  }
+  .project-type-option {
+    font-size: 15px;
+  }
+  .project-type-bottom {
+    padding-left: 0%;
+  }
+  .type-title {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 375px) {
   .type-container-mobile {
     display: flex;
     flex-direction: column;
@@ -569,14 +708,6 @@ export default class ProjectTypeA extends Vue {
     position: absolute;
     z-index: -1;
     width: 100%;
-  }
-  .project-type-header {
-    font-size: 18px;
-    border: 1px solid #455a3f;
-    color: #455a3f;
-    width: 50%;
-    font-weight: bold;
-    text-align: center;
   }
   .project-type-Topic {
     font-size: 13px;
@@ -598,19 +729,6 @@ export default class ProjectTypeA extends Vue {
   .type-title {
     font-size: 13px;
   }
-  .project-type-option {
-    font-size: 10px;
-    position: absolute;
-    z-index: 1;
-    opacity: 1;
-    height: 134%;
-    width: 20%;
-    padding-top: 6%;
-    color: black;
-  }
-  .project-type-option sup {
-    font-size: 8px;
-  }
   .project-type-left {
     display: flex;
   }
@@ -642,14 +760,9 @@ export default class ProjectTypeA extends Vue {
     flex-direction: column;
   }
   .square {
-    height: 61.7%;
+    height: 60%;
     width: 35%;
   }
-  .project-type-option {
-    width: 35%;
-    height: 0%;
-  }
-
   .type-img-container {
     width: 18%;
   }
@@ -660,31 +773,46 @@ export default class ProjectTypeA extends Vue {
     width: 100%;
   }
   .powerRoom-icon {
-  padding: 2%;
-  width: 12%;
-  margin-left: 3%;
-}
-.car-icon {
-  padding: 2%;
-  height: 80%;
-}
-.rooftop-icon {
-  padding: 2%;
-  height: 80%;
-  margin-top: 7%;
-}
-.bathroom-icon {
-  padding: 2%;
-}
-.bedroom-icon {
-  padding: 3%;
-  height: 80%;
-}
-.project-type-description {
+    padding: 2%;
+    width: 12%;
+    margin-left: 3%;
+  }
+  .car-icon {
+    padding: 2%;
+    height: 80%;
+  }
+  .rooftop-icon {
+    padding: 2%;
+    height: 80%;
+    margin-top: 7%;
+  }
+  .bathroom-icon {
+    padding: 2%;
+  }
+  .bedroom-icon {
+    padding: 3%;
+    height: 80%;
+  }
+  .project-type-description {
     font-size: 9px;
-}
-.project-description-inner {
+  }
+  .project-description-inner {
     font-size: 8px;
-}
+  }
+  .type-non-actve {
+    font-size: 16px;
+  }
+  .project-type-option {
+    font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    width: 35%;
+    padding-top: 6%;
+    color: black;
+  }
+  .project-type-option sup {
+    font-size: 8px;
+  }
 }
 </style>

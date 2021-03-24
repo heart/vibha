@@ -30,7 +30,7 @@
         <p class="project-description">
           <span class="description-bold">ARCHITECT :</span> ARBAY COMPANY
           LIMITED <br />
-          <span class="description-bold">INTERIOR :</span> CHEMISTRY
+          <span class="description-bold">INTERIOR :</span> STUDIO CHEMISTRI
         </p>
         <p @click="onClick()" class="project-plan">PROJECT PLAN</p>
         <b-modal v-model="projectPlan" id="modal-1" title="BootstrapVue">
@@ -52,45 +52,90 @@
       <div v-if="this.isTypeA">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
-            <p class="type-actve" @click="onclickTypeA">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;
-            </p>
-            <p class="type-non-actve" @click="onclickTypeB">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;
-            </p>
-            <p class="type-non-actve" @click="onclickTypeC">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;
-            </p>
+            <span class="type-actve" @click="onclickTypeA">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">A</p>
+            </span>
+            <span class="type-non-actve" @click="onclickTypeB">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">B</p>
+            </span>
+            <span class="type-non-actve" @click="onclickTypeC">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">C</p>
+            </span>
           </div>
         </div>
       </div>
       <div v-if="this.isTypeB">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
-            <p class="type-non-actve" @click="onclickTypeA">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;
-            </p>
-            <p class="type-actve" @click="onclickTypeB">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;
-            </p>
-            <p class="type-non-actve" @click="onclickTypeC">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;
-            </p>
+            <span class="type-non-actve" @click="onclickTypeA">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">A</p>
+            </span>
+            <span class="type-actve" @click="onclickTypeB">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">B</p>
+            </span>
+            <span class="type-non-actve" @click="onclickTypeC">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">C</p>
+            </span>
           </div>
         </div>
       </div>
       <div v-if="this.isTypeC">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
-            <p class="type-non-actve" @click="onclickTypeA">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;
-            </p>
-            <p class="type-non-actve" @click="onclickTypeB">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;
-            </p>
-            <p class="type-actve" @click="onclickTypeC">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;
-            </p>
+            <span class="type-non-actve" @click="onclickTypeA">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">A</p>
+            </span>
+            <span class="type-non-actve" @click="onclickTypeB">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">B</p>
+            </span>
+            <span class="type-actve" @click="onclickTypeC">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">C</p>
+            </span>
           </div>
         </div>
       </div>
@@ -235,7 +280,7 @@ export default class ProjectInfo extends Vue {
 div.vertical-line {
   width: 4px;
   background-color: #1e2f27;
-  height: 172%;
+  height: 160%;
   float: left;
   margin-left: 6.2%;
   position: absolute;
@@ -244,28 +289,31 @@ div.vertical-line {
 .project-line {
   width: 15%;
 }
-
+.type-padding {
+  padding: 2%;
+}
 .type-actve {
   border: 1px solid #455a3f;
   color: white;
   background-color: #455a3f;
-  font-size: 60px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: 50%;
-  margin-bottom: 7%;
+  font-size: 40px;
   cursor: pointer;
   font-weight: bold;
+  display: flex;
+  margin: 2%;
+  width: 15%;
+  justify-content: center;
 }
 .type-non-actve {
   border: 1px solid #455a3f;
   color: #455a3f;
-  font-size: 60px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 7%;
+  font-size: 40px;
   cursor: pointer;
   font-weight: bold;
+  display: flex;
+  margin: 2%;
+  width: 15%;
+  justify-content: center;
 }
 
 .vibha-type {
@@ -287,10 +335,6 @@ div.vertical-line {
   display: flex;
   justify-content: center;
 }
-.vibha-type-bottom-center p {
-  margin-left: 5%;
-  margin-right: 5%;
-}
 .project-plan {
   border: 1px solid white;
   color: white;
@@ -308,24 +352,45 @@ div.vertical-line {
 .project-info-right-mobile {
   display: none;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1543px) {
+  .project-plan {
+    width: 35%;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .type-actve {
+    font-size: 40px;
+  }
+  .type-non-actve {
+    font-size: 40px;
+  }
+  .project-plan {
+    font-size: 40px;
+    width: 40%;
+  }
+  .project-description {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1100px) {
   div.vertical-line {
     width: 2px;
     margin-left: 6.2%;
     height: 132%;
   }
   .type-non-actve {
-    font-size: 16px;
+    font-size: 30px;
     padding: 5px;
     height: 100%;
   }
   .type-actve {
-    font-size: 16px;
+    font-size: 30px;
     padding: 5px;
     height: 100%;
   }
   .project-plan {
-    font-size: 25px;
+    font-size: 30px;
   }
   .project-description {
     font-size: 30px;
@@ -337,17 +402,18 @@ div.vertical-line {
     padding-bottom: 10%;
   }
 }
-@media screen and (max-width: 1300px) {
-  .type-actve{
-    font-size: 40px;
+@media screen and (max-width: 900px) {
+  .type-actve {
+    font-size: 30px;
   }
-  .type-non-actve{
-    font-size: 40px;
+  .type-non-actve {
+    font-size: 30px;
   }
-  .project-plan{
-    font-size: 40px;
-    width: 40%;
 }
+@media screen and (max-width: 825px) {
+  .project-plan {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 768px) {
   .textAlignVer {
@@ -390,11 +456,22 @@ div.vertical-line {
     font-size: 16px;
     padding: 5px;
     height: 100%;
+    display: flex;
+    margin: 2%;
+    width: 22%;
+    justify-content: center;
   }
   .type-actve {
     font-size: 16px;
     padding: 5px;
     height: 100%;
+    display: flex;
+    margin: 2%;
+    width: 22%;
+    justify-content: center;
+  }
+  .type-padding {
+    padding: 2%;
   }
 }
 </style>

@@ -32,7 +32,7 @@ export default class ProjectPlan extends Vue {
   align-content: center;
 }
 .project-plan-img{
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
 .project-plan-title{

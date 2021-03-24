@@ -11,9 +11,9 @@
         <p>
           In 2020, the company has expanded the business to capture the
           potential for housing development in the Vibhavadi
-          Rangsit-Phaholyothin area, which is a high growth district. It is
+          Rangsit-Phaholyothin area, which is a high growth district. <br> It is
           surrounded by various amenities including the Green and Red Skytrain
-          connects traveling to the inner and outer Bangkok.The area also
+          connects traveling to the inner and outer Bangkok. <br> The area also
           provides easy access to department stores, universities, hospitals,
           and parks that are scattered around the area.
         </p>
@@ -88,6 +88,26 @@ export default class VibhaDetail extends Vue {}
   font-family: "DB-Ozone-X";
   src: url(/fonts/DB-Ozone-X.ttf);
 }
+@font-face {
+  font-family: "Kiona-Regular";
+  src: url(/fonts/Kiona-Regular.ttf);
+}
+@font-face {
+  font-family: "SukhumvitSet";
+  src: url(/fonts/SukhumvitSet.ttf);
+}
+@font-face {
+  font-family: "Cremona";
+  src: url(/fonts/Cremona.ttf);
+}
+@font-face {
+  font-family: "Avenir-Next";
+  src: url(/fonts/Avenir-Next.ttf);
+}
+@font-face {
+  font-family: "Butler_Medium_Stencil";
+  src: url(/fonts/Butler_Medium_Stencil.ttf);
+}
 body {
   font-size: 0em;
 } 
@@ -108,14 +128,21 @@ body {
   background-color: #93a49e;
 }
 .Vibha-detail-bottom {
-  font-size: 35px;
+  font-size: 25px;
   padding-left: 18%;
   padding-top: 13%;
   padding-right: 5%;
   padding-bottom: 15%;
+  font-family: "SukhumvitSet";
+  font-weight: bold;
 }
+.Vibha-detail-description-swapDesktop {
+    font-size: 25px;
+    font-family: "SukhumvitSet";
+    font-weight: bold;
+  }
 .Vibha-detail-top p {
-  font-size: 90px;
+  font-size: 88px;
   padding-left: 20%;
   padding-top: 28%;
   font-weight: bold;
@@ -159,6 +186,9 @@ div.vertical-line {
 .Vibha-detail-top-header {
   margin-left: -2%;
   color: black;
+  font-family: "Butler_Medium_Stencil";
+  font-weight: bold;
+  font-size: 40px;
 }
 .Vibha-detail-description-right {
   padding-right: 15%;
@@ -170,6 +200,7 @@ div.vertical-line {
 .Vibha-detail-description-swapMobile {
   display: none;
 }
+
 @media screen and (max-width: 1024px) {
   .Vibha-detail-bottom {
     font-size: 25px;
@@ -180,7 +211,7 @@ div.vertical-line {
     width: 100%;
   }
   .Vibha-detail-bottom {
-    font-size: 16px;
+    font-size: 12px;
   }
   .Vibha-detail-top-img {
     margin-bottom: -8%;
@@ -216,6 +247,8 @@ div.vertical-line {
     width: 50%;
     padding: 2%;
     font-size: 12px;
+    font-family: "SukhumvitSet";
+    font-weight: bold;
   }
   .Vibha-detail-description-right {
     padding-right: 0%;

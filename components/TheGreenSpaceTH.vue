@@ -7,11 +7,12 @@
       <img src="/green-th-img.jpg" alt="" />
       <div class="square"></div>
       <p class="green-th-description-th">
-        เพื่อสนองความต้องการและความสะดวกสบายในการ ดูแลผู้สูงอายุภายในบ้าน
-        ชั้นหนึ่งถูกจัดวางให้เป็นพื้นที่ส่วนตัวของผู้ สูงอายุ
-        เพื่อการเข้าถึงที่ง่าย ภายในห้องนอนและห้องน้ำได้รับการดีไซน์ให้เหมาะสม
-        ปลอดภัย สามารถเปิดรับแสง และอากาศ บริสุทธิ์จากภายนอก พร้อมกับสวนเล็กๆ
-        ด้านข้าง ให้การพักผ่อนเป็นไป อย่างเต็มที่ในทุกช่วงเวลา
+        พื้นที่สีเขียวคือความตั้งใจของผู้ออกแบบที่วางทุกองค์ประกอบของบ้านตั้งแต่ชั้นหนึ่ง
+        ถึง MASTER BEDROOM ให้เห็นต้นไม้สูงสวยจากใจกลาง และเพิ่มพื้นที่ ROOFTOP
+        ส่วนชั้นบนสุดของบ้าน
+        ให้ผู้อยู่อาศัยได้มีพื้นที่ในการจัดแต่งปลูกต้นไม้ตามความชอบ
+        สร้างบรรยากาศความสดชื่นภายในบ้าน และเพิ่มความสมดุลของสภาวะอากาศภายนอก
+        ตอบโจทย์การพักผ่อนที่เป็นธรรมชาติของคุณและครอบครัวได้อย่างลงตัว
       </p>
     </div>
     <!-- mobile -->
@@ -22,11 +23,12 @@
       </div>
       <div class="mobile-bottom">
         <p class="description-mobile">
-          เพื่อสนองความต้องการและความสะดวกสบายในการ ดูแลผู้สูงอายุภายในบ้าน
-        ชั้นหนึ่งถูกจัดวางให้เป็นพื้นที่ส่วนตัวของผู้ สูงอายุ
-        เพื่อการเข้าถึงที่ง่าย ภายในห้องนอนและห้องน้ำได้รับการดีไซน์ให้เหมาะสม
-        ปลอดภัย สามารถเปิดรับแสง และอากาศ บริสุทธิ์จากภายนอก พร้อมกับสวนเล็กๆ
-        ด้านข้าง ให้การพักผ่อนเป็นไป อย่างเต็มที่ในทุกช่วงเวลา
+          พื้นที่สีเขียวคือความตั้งใจของผู้ออกแบบที่วางทุกองค์ประกอบของบ้านตั้งแต่ชั้นหนึ่ง
+          ถึง MASTER BEDROOM ให้เห็นต้นไม้สูงสวยจากใจกลาง และเพิ่มพื้นที่
+          ROOFTOP ส่วนชั้นบนสุดของบ้าน
+          ให้ผู้อยู่อาศัยได้มีพื้นที่ในการจัดแต่งปลูกต้นไม้ตามความชอบ
+          สร้างบรรยากาศความสดชื่นภายในบ้าน และเพิ่มความสมดุลของสภาวะอากาศภายนอก
+          ตอบโจทย์การพักผ่อนที่เป็นธรรมชาติของคุณและครอบครัวได้อย่างลงตัว
         </p>
       </div>
     </div>
@@ -43,7 +45,7 @@ export default class TheGreenSpaceTH extends Vue {}
 
 <style lang="scss" scoped>
 @font-face {
-  font-family: 'DB-Ozone-X';
+  font-family: "DB-Ozone-X";
   src: url(/fonts/DB-Ozone-X.ttf);
 }
 .green-th-page {
@@ -87,11 +89,11 @@ export default class TheGreenSpaceTH extends Vue {}
   margin-left: 8%;
   margin-top: -6%;
 }
-.mobile-container{
+.mobile-container {
   display: none;
 }
 @media screen and (max-width: 768px) {
-  .responsive-desktop{
+  .responsive-desktop {
     display: none;
   }
   .mobile-container {
@@ -101,16 +103,16 @@ export default class TheGreenSpaceTH extends Vue {}
   .mobile-bottom {
     display: flex;
   }
-  .description-mobile{
+  .description-mobile {
     font-size: 12px;
     margin: 3%;
   }
-  .mobile-title{
+  .mobile-title {
     padding-left: 3%;
     padding-right: 3%;
     margin-top: -8%;
     font-size: 14px;
-    font-weight:bold;
+    font-weight: bold;
     background-color: #d6d1cb;
     position: absolute;
     z-index: 1;

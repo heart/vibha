@@ -132,7 +132,7 @@ export default class Location extends Vue {}
   padding-left: 5%;
 }
 .location-description {
-  font-size: 27px;
+  font-size: 35px;
 }
 .location-img-house {
   position: absolute;
@@ -200,9 +200,83 @@ div.vertical-line {
   display: none;
 }
 @media screen and (max-width: 1300px) {
-.location-table-data {
+.location-table-header-mobile {
+    display: block;
+  }
+  .location-header {
+    width: 100%;
+    padding-top: 20%;
+  }
+  .location-img-house {
+    position: absolute;
+    z-index: -1;
+    width: 75%;
+  }
+  div.vertical-line {
+    width: 2px;
+    height: 50%;
+    margin-left: 7.2%;
+    margin-top: 16%;
+  }
+  .textAlignVer {
     font-size: 25px;
-    width: 50%;
+    margin-left: 5.2%;
+    margin-top: 4%;
+  }
+  .location-right-mobile {
+    display: block;
+    font-size: 16px;
+  }
+  .location-right-desktop {
+    display: none;
+  }
+  .location-right {
+    width: 100%;
+    padding-top: 81%;
+    padding-left: 13%;
+    padding-right: 10%;
+  }
+  .location-description {
+    font-size: 30px;
+  }
+  .location-table-header {
+    font-size: 40px;
+  }
+  .location-bottom {
+    flex-direction: column;
+  }
+  .location-table-data {
+    font-size: 30px;
+    width: 50px;
+  }
+  .location-bottom-right {
+    width: 100%;
+    padding-left: 0%;
+    padding-bottom: 10%;
+  }
+  .location-bottom-left {
+    width: 90%;
+    margin: auto;
+    padding-left: 0%;
+    padding-top: 0%;
+  }
+  .location-table-header-desktop {
+    display: none;
+  }
+  .location-bottom-right table {
+    margin: auto;
+    width: 75%;
+  }
+  .location-table-header-mobile {
+    color: black;
+    padding-left: 10%;
+    font-weight: bold;
+  }
+
+}
+@media screen and (max-width: 1024px) {
+.location-bottom {
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 768px) {

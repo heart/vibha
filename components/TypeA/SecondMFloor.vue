@@ -32,7 +32,7 @@ export default class SecondMFloor extends Vue {
   align-content: center;
 }
 .project-plan-img{
-  width: 50%;
+  width: 40%;
   text-align: center;
 }
 .project-plan-title{

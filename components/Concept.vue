@@ -24,8 +24,7 @@
         </p>
         <br />
         <p>
-          บ้านหรูสไตล์โมเดิร์นที่พร้อมตอบสนองการใช้ชีวิตในทุกรูปแบบที่เป็นคุณ
-          ตั้ง อยู่ในย่านที่ พักอาศัยถนนวิภาสดีรังสิต รายล้อมด้วยธรรมชาติ และ
+          บ้านหรูสไตล์โมเดิร์นที่พร้อมตอบสนองการใช้ชีวิตในทุกรูปแบบที่เป็นคุณตั้งอยู่ในย่านที่พักอาศัยถนนวิภาสดีรังสิต รายล้อมด้วยธรรมชาติ และ
           ไลฟ์สไตล์ ทั้งสวนสาธารณะ ศูนย์การค้า ตลาด รวมถึงสถานศึกษา และ
           โรงพยาบาลชั้นนำ
         </p>
@@ -151,10 +150,10 @@ body {
   position: relative;
   width: 20px;
   white-space: nowrap;
-  font-size: 42px;
+  font-size: 60px;
   color: #1e2f27;
   font-weight: bold;
-  margin-left: 60%;
+  margin-left: 58%;
   margin-top: 150%;
 }
 div.vertical-line {
@@ -286,7 +285,7 @@ div.vertical-line {
   .textAlignVer {
     margin-top: 230%;
     font-size: 25px;
-    margin-left: 70%;
+    margin-left: 60%;
   }
   .concept-modern-right {
     padding-bottom: 17%;

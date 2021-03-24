@@ -33,8 +33,8 @@
         <hr class="line" />
       </b-navbar-item>
       <b-navbar-item class="nav-item nav-item-mobile">
-        <img class="nav-icon" src="~assets/icon/facebook-icon-navbar.png" />
-        <img class="nav-icon" src="~assets/icon/instagram-icon-navbar.png" />
+        <a href="https://www.facebook.com/vibharesidence/"><img class="nav-icon" src="~assets/icon/facebook-icon-navbar.png" /></a>
+        <a href="https://instagram.com/vibharesidence?igshid=mgzpo4k2x2du"><img class="nav-icon" src="~assets/icon/instagram-icon-navbar.png" /></a>
       </b-navbar-item>
     </template>
   </b-navbar>
@@ -66,8 +66,20 @@ hr.line {
   display: none;
 }
 .nav-padding-right {
-  display: block;
   padding-right: 10%;
+}
+@media screen and (max-width: 1500px) {
+  .nav-item{
+      font-size: 20px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .nav-item{
+      font-size: 16px;
+  }
+  .nav-padding-right {
+    padding-right: 6%;
+}
 }
 @media screen and (max-width: 1023px) {
   .nav-padding-right {

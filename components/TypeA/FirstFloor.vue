@@ -32,7 +32,7 @@ export default class FirstFloor extends Vue {
   align-content: center;
 }
 .project-plan-img{
-  width: 50%;
+  width: 40%;
   text-align: center;
 }
 .project-plan-title{
@@ -53,8 +53,6 @@ export default class FirstFloor extends Vue {
 @media screen and (max-width: 768px) {
   .project-titile{
     font-size: 16px;
-
-
   }
 }
 </style>
