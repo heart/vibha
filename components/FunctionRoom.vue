@@ -4,7 +4,7 @@
     <div class="function-top function-container-desktop">
       <div class="function-area">
         <!-- <div @click="onClick11()" class="square pointer"></div> -->
-         <div @click="onClick11()" v-if="img11 == true" @mouseover="imgShow12()" class="function-title">
+         <div @click="onClick11()" v-if="img11 == true" @mouseover="imgShow11()" class="function-title">
           <div class="function-title-container">
             <p>Double Volume <br />Living room & Dining room</p>
           </div>
@@ -373,8 +373,10 @@ export default class FunctionRoom extends Vue {
   width: 25%;
 }
 .function-container {
-  height: 100%;
-  width: 100%;
+  height: 64%;
+  width: 25%;
+  position: absolute;
+z-index: 1
 }
 .function-container:hover {
   opacity: 0.5;
@@ -414,6 +416,32 @@ export default class FunctionRoom extends Vue {
   color: #455a3f;
   margin-top: 14%;
 }
+@media screen and (max-width: 1750px) {
+  .function-container {
+  height: 66%;
+}
+}
+@media screen and (max-width: 1700px) {
+  .function-container {
+  height: 69%;
+}
+}
+@media screen and (max-width: 1600px) {
+  .function-container {
+  height: 72%;
+}
+}
+@media screen and (max-width: 1500px) {
+  // eiei
+  .function-container {
+  height: 74%;
+}
+}
+@media screen and (max-width: 1400px) {
+  .function-container {
+  height: 72%;
+}
+}
 @media screen and (max-width: 1300px) {
   .function-top {
     height: 445px;
@@ -432,6 +460,9 @@ export default class FunctionRoom extends Vue {
     width: 100%;
     text-align: center;
   }
+  .function-container {
+  height: 53%;
+}
 }
 @media screen and (max-width: 1000px) {
   .function-top {
@@ -440,6 +471,9 @@ export default class FunctionRoom extends Vue {
   .function-bottom {
     height: 410px;
   }
+  .function-container {
+  height: 49%;
+}
 }
 @media screen and (max-width: 800px) {
   .function-container-desktop {
@@ -457,18 +491,6 @@ export default class FunctionRoom extends Vue {
     display: flex;
     height: 500px;
   }
-//   .square {
-//     width: 50%;
-//     height: 500px;
-//     background-color: grey;
-//     opacity: 1;
-//     position: absolute;
-//     z-index: 1;
-//   }
-
-// .square:hover{
-//   opacity: 0.7;
-// }
   .function-title {
     font-size: 15px;
     justify-items: center;
@@ -483,6 +505,10 @@ export default class FunctionRoom extends Vue {
     width: 100%;
     text-align: center;
   }
+  .function-container{
+    height: 60%;
+    width: 50%;
+}
 }
 @media screen and (max-width: 500px) {
   .function-container-desktop {
@@ -500,17 +526,6 @@ export default class FunctionRoom extends Vue {
     display: flex;
     height: 350px;
   }
-//   .square {
-//     width: 50%;
-//     height: 350px;
-//     background-color: grey;
-//     opacity: 1;
-//     position: absolute;
-//     z-index: 1;
-//   }
-//   .square:hover{
-//   opacity: 0.7;
-// }
   .function-title {
     font-size: 15px;
     justify-items: center;
@@ -525,6 +540,10 @@ export default class FunctionRoom extends Vue {
     width: 100%;
     text-align: center;
   }
+  .function-container{
+    height: 42%;
+    width: 50%;
+}
 }
 @media screen and (max-width: 375px) {
   .function-container-desktop {
@@ -567,5 +586,9 @@ export default class FunctionRoom extends Vue {
     width: 100%;
     text-align: center;
   }
+  .function-container{
+    height: 30%;
+    width: 50%;
+}
 }
 </style>
