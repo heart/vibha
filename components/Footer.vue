@@ -630,10 +630,9 @@ export default class Footer extends Vue {}
 }
 }
 @media screen and (max-width: 768px) {
-  .footer-bg {
-    // height: 35%;
-    margin-top: -20%;
-  }
+  .footer-bg{
+    margin-top: -10%;
+}
   .footer-container {
     font-size: 16px;
     height: 540px;
@@ -759,6 +758,9 @@ export default class Footer extends Vue {}
   .phone-icon{
     width: 9%;
     margin: 1%;
+}
+.divFlex-center-font p{
+    margin-top: 9%;
 }
 }
 @media screen and (max-width: 500px) {

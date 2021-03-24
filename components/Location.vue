@@ -6,11 +6,7 @@
         <div class="vertical-line"></div>
       </div>
       <div class="location-left">
-        <img
-          src="/location-img-house.jpg"
-          class="location-img-house"
-          alt=""
-        />
+        <img src="/location-img-house.jpg" class="location-img-house" alt="" />
       </div>
       <div class="location-right location-right-desktop">
         <p class="location-description">
@@ -132,7 +128,7 @@ export default class Location extends Vue {}
   padding-left: 5%;
 }
 .location-description {
-  font-size: 35px;
+  font-size: 40px;
 }
 .location-img-house {
   position: absolute;
@@ -199,8 +195,24 @@ div.vertical-line {
 .location-table-header-mobile {
   display: none;
 }
+@media screen and (max-width: 1600px) {
+  .location-table-data {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .location-table-header {
+    font-size: 55px;
+  }
+  .location-table-data {
+    font-size: 25px;
+  }
+  .textAlignVer {
+    font-size: 50px;
+  }
+}
 @media screen and (max-width: 1300px) {
-.location-table-header-mobile {
+  .location-table-header-mobile {
     display: block;
   }
   .location-header {
@@ -212,16 +224,13 @@ div.vertical-line {
     z-index: -1;
     width: 75%;
   }
-  div.vertical-line {
-    width: 2px;
-    height: 50%;
-    margin-left: 7.2%;
-    margin-top: 16%;
-  }
   .textAlignVer {
-    font-size: 25px;
-    margin-left: 5.2%;
-    margin-top: 4%;
+    font-size: 42px;
+    margin-top: 2%;
+  }
+  div.vertical-line {
+    margin-top: 8%;
+    height: 150%;
   }
   .location-right-mobile {
     display: block;
@@ -240,7 +249,7 @@ div.vertical-line {
     font-size: 30px;
   }
   .location-table-header {
-    font-size: 40px;
+    font-size: 60px;
   }
   .location-bottom {
     flex-direction: column;
@@ -255,7 +264,7 @@ div.vertical-line {
     padding-bottom: 10%;
   }
   .location-bottom-left {
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding-left: 0%;
     padding-top: 0%;
@@ -272,11 +281,33 @@ div.vertical-line {
     padding-left: 10%;
     font-weight: bold;
   }
-
+}
+@media screen and (max-width: 1100px) {
+  .location-description {
+    font-size: 28px;
+  }
+  div.vertical-line {
+    height: 140%;
+  }
 }
 @media screen and (max-width: 1024px) {
-.location-bottom {
+  .location-bottom {
     flex-direction: column;
+  }
+  .location-table-data {
+    font-size: 25px;
+    width: 50px;
+  }
+  .location-table-header {
+    font-size: 55px;
+  }
+  div.vertical-line {
+    height: 130%;
+  }
+}
+@media screen and (max-width: 900px) {
+  div.vertical-line {
+    height: 120%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -292,17 +323,6 @@ div.vertical-line {
     z-index: -1;
     width: 75%;
   }
-  div.vertical-line {
-    width: 2px;
-    height: 50%;
-    margin-left: 7.2%;
-    margin-top: 16%;
-  }
-  .textAlignVer {
-    font-size: 25px;
-    margin-left: 5.2%;
-    margin-top: 4%;
-  }
   .location-right-mobile {
     display: block;
     font-size: 16px;
@@ -317,7 +337,7 @@ div.vertical-line {
     padding-right: 10%;
   }
   .location-description {
-    font-size: 16px;
+    font-size: 28px;
   }
   .location-table-header {
     font-size: 40px;
@@ -351,6 +371,108 @@ div.vertical-line {
     color: black;
     padding-left: 10%;
     font-weight: bold;
+  }
+  .location-table-data {
+    font-size: 20px;
+    width: 50px;
+  }
+  .textAlignVer{
+    font-size: 42px;
+    margin-top: 1%;
+     margin-left: 5%;
+  }
+  div.vertical-line {
+    height: 110%;
+    width: 2px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .location-description {
+    font-size: 25px;
+  }
+  .textAlignVer{
+    font-size: 42px;
+    margin-top: 1%;
+     margin-left: 5%;
+  }
+  div.vertical-line {
+    height: 100%;
+    width: 2px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .location-description {
+    font-size: 24px;
+  }
+  .location-table-data {
+    font-size: 18px;
+    width: 50px;
+  }
+  .textAlignVer{
+    font-size: 38px;
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+  div.vertical-line {
+    height: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .location-description {
+    font-size: 23px;
+  }
+  .location-table-data {
+    font-size: 17px;
+    width: 50px;
+  }
+  .textAlignVer{
+    font-size: 32px;
+    margin-top: 1%;
+  }
+  div.vertical-line {
+    height: 85%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .location-description {
+    font-size: 20px;
+  }
+  .location-table-data {
+    font-size: 15px;
+    width: 50px;
+  }
+  .location-table-header {
+    font-size: 30px;
+  }
+  .textAlignVer{
+    font-size: 28px;
+    margin-top: -1%;
+     margin-left: 4%;
+  }
+  div.vertical-line {
+    height: 70%;
+    width: 2px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .location-description {
+    font-size: 16px;
+  }
+  .location-table-data {
+    font-size: 14px;
+    width: 50px;
+  }
+  .location-table-header {
+    font-size: 25px;
+  }
+  .textAlignVer{
+    font-size: 25px;
+    margin-top: -1%;
+     margin-left: 4%;
+  }
+  div.vertical-line {
+    height: 60%;
+    width: 2px;
   }
 }
 </style>

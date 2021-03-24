@@ -24,9 +24,9 @@
         </p>
         <br />
         <p>
-          บ้านหรูสไตล์โมเดิร์นที่พร้อมตอบสนองการใช้ชีวิตในทุกรูปแบบที่เป็นคุณตั้งอยู่ในย่านที่พักอาศัยถนนวิภาสดีรังสิต รายล้อมด้วยธรรมชาติ และ
-          ไลฟ์สไตล์ ทั้งสวนสาธารณะ ศูนย์การค้า ตลาด รวมถึงสถานศึกษา และ
-          โรงพยาบาลชั้นนำ
+          บ้านหรูสไตล์โมเดิร์นที่พร้อมตอบสนองการใช้ชีวิตในทุกรูปแบบที่เป็นคุณตั้งอยู่ในย่านที่พักอาศัยถนนวิภาสดีรังสิต
+          รายล้อมด้วยธรรมชาติ และ ไลฟ์สไตล์ ทั้งสวนสาธารณะ ศูนย์การค้า ตลาด
+          รวมถึงสถานศึกษา และ โรงพยาบาลชั้นนำ
         </p>
       </div>
     </div>
@@ -36,14 +36,15 @@
 
       <div class="concept-func-container">
         <p class="concept-func-header">With a simply <br />functional twist</p>
-        <br>
+        <br />
         <div class="concept-func-description">
           <p>
             Every single house is designed with the concept of modern luxury
             with a simply functional twist on top of mind to accommodate every
-            changeover and meet the needs of all family members. It is
-            thoughtfully outlined to maximize usable space while maintaining the
-            perfect blend between modern design and the touch of nature.
+            changeover and meet the needs of all family members. <br />
+            It is thoughtfully outlined to maximize usable space while
+            maintaining the perfect blend between modern design and the touch of
+            nature.
           </p>
           <br />
           <p>
@@ -60,7 +61,11 @@
       </div>
     </div>
     <img class="concept-door concept-desktop" src="/concept-door.jpg" alt="" />
-    <img class="concept-door concept-mobile" src="/concept-door-mobile.jpg" alt="" />
+    <img
+      class="concept-door concept-mobile"
+      src="/concept-door-mobile.jpg"
+      alt=""
+    />
   </div>
 </template>
 
@@ -192,72 +197,108 @@ div.vertical-line {
 .concept-mobile {
   display: none;
 }
+@media screen and (max-width: 1600px) {
+  .concept-modern-left {
+    font-size: 70px;
+  }
+  .concept-modern-right {
+    font-size: 33px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .concept-modern-left {
+    font-size: 55px;
+  }
+  .concept-modern-right {
+    padding-top: 6%;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .concept-modern-right {
+    font-size: 29px;
+  }
+  .concept-func-header {
+    font-size: 65px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .concept-modern-left {
+    font-size: 50px;
+  }
+  .concept-modern-right {
+    font-size: 29px;
+    padding-top: 6%;
+  }
+  .concept-func-description {
+    font-size: 29px;
+  }
+  .concept-func-header {
+    font-size: 60px;
+  }
+  div.vertical-line {
+    height: 250%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .concept-func-header {
+    font-size: 55px;
+  }
+  div.vertical-line {
+    height: 240%;
+  }
+  .textAlignVer {
+    font-size: 40px;
+}
+}
+@media screen and (max-width: 1100px) {
+  .concept-modern-right {
+    font-size: 23px;
+    padding-top: 7%;
+  }
+  .concept-modern-left {
+    font-size: 45px;
+  }
+  .textAlignVer {
+    font-size: 40px;
+}
+}
 @media screen and (max-width: 1024px) {
   div.vertical-line {
     height: 200%;
   }
-  .concept-mobile {
-    display: block;
-  }
-  .concept-desktop {
-    display: none;
-  }
   .concept-func-description {
     font-size: 16px;
     padding-right: 7%;
   }
-}
-@media screen and (max-width: 700px) {
-  .concept-mobile {
-    display: block;
-  }
-  .concept-desktop {
-    display: none;
-  }
-  .concept-img-mobile {
-    display: block;
-    width: 100%;
-  }
-  .concept-img {
-    display: none;
-  }
-  .concept-modern-right {
-    width: 53%;
-    font-size: 12px;
-  }
-  .concept-modern-left {
-    width: 40%;
-    font-size: 22px;
-    padding-top: 40%;
-  }
-  .textAlignVer {
-    margin-top: 230%;
+  .concept-func-description {
     font-size: 25px;
-  }
-  .concept-modern-right {
-    padding-bottom: 17%;
-  }
-  .concept-func-img {
-    margin-top: -10%;
-  }
-  .concept-bg {
-    height: 1400px;
-  }
-  .concept-door {
-    height: 300px;
+    padding-right: 7%;
   }
   .concept-func-header {
-    font-size: 21px;
+    font-size: 52px;
+  }
+  .textAlignVer {
+    font-size: 40px;
+}
+}
+@media screen and (max-width: 850px) {
+  div.vertical-line {
+    height: 200%;
   }
   .concept-func-description {
-    font-size: 16px;
+    font-size: 21px;
     padding-right: 7%;
   }
-  div.vertical-line {
-    width: 2px;
-    margin-left: 8%;
-    height: 105%;
+  .concept-func-header {
+    font-size: 48px;
   }
+  div.vertical-line {
+    height: 185%;
+  }
+  .textAlignVer {
+    margin-left: 50%;
+    font-size: 35px;
+}
 }
 @media screen and (max-width: 768px) {
   .concept-mobile {
@@ -299,17 +340,167 @@ div.vertical-line {
   .concept-door {
     height: 230px;
   }
-  .concept-func-header {
-    font-size: 21px;
+  div.vertical-line {
+    width: 2px;
+    margin-left: 8%;
+    height: 105%;
+  }
+  .concept-mobile {
+    display: block;
+  }
+  .concept-desktop {
+    display: none;
+  }
+  .concept-modern-right {
+    font-size: 20px;
+    padding-top: 16%;
+  }
+  .concept-modern-left {
+    font-size: 40px;
   }
   .concept-func-description {
-    font-size: 12px;
+    font-size: 18px;
+    padding-right: 7%;
+  }
+  .concept-func-header {
+    font-size: 45px;
+  }
+  .concept-door {
+    height: 320px;
+}
+div.vertical-line {
+    height: 160%;
+  }
+  .textAlignVer {
+    margin-left: 70%;
+    font-size: 40px;
+}
+}
+@media screen and (max-width: 700px) {
+  .concept-mobile {
+    display: block;
+  }
+  .concept-desktop {
+    display: none;
+  }
+  .concept-img-mobile {
+    display: block;
+    width: 100%;
+  }
+  .concept-img {
+    display: none;
+  }
+  .textAlignVer {
+    margin-top: 230%;
+    font-size: 25px;
+  }
+  .concept-modern-right {
+    padding-bottom: 17%;
+  }
+  .concept-func-img {
+    margin-top: -10%;
+  }
+  .concept-bg {
+    height: 1400px;
+  }
+  .concept-func-header {
+    font-size: 40px;
+  }
+  .concept-func-description {
+    font-size: 16px;
     padding-right: 7%;
   }
   div.vertical-line {
     width: 2px;
     margin-left: 8%;
-   height: 105%;
+    height: 160%;
+  }
+  .textAlignVer {
+    font-size: 30px;
+}
+}
+@media screen and (max-width: 600px) {
+  .concept-modern-right {
+    font-size: 18px;
+    padding-top: 16%;
+  }
+  .concept-modern-left {
+    font-size: 35px;
+  }
+  .concept-func-header {
+    font-size: 35px;
+  }
+  .concept-func-description {
+    font-size: 15px;
+  }
+  div.vertical-line {
+    width: 2px;
+    margin-left: 8%;
+    height: 140%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .concept-modern-right {
+    font-size: 16px;
+    padding-top: 16%;
+  }
+  .concept-modern-left {
+    font-size: 30px;
+  }
+  .concept-func-header {
+    font-size: 30px;
+  }
+  .concept-func-description {
+    font-size: 14px;
+  }
+  .concept-door{
+    height: 300px;
+}
+div.vertical-line {
+    width: 2px;
+    margin-left: 8%;
+    height: 130%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .concept-modern-right {
+    font-size: 14px;
+    padding-top: 16%;
+  }
+  .concept-modern-left {
+    font-size: 25px;
+  }
+  .concept-func-header {
+    font-size: 28px;
+  }
+  .concept-func-description {
+    font-size: 12px;
+  }
+  .concept-door{
+    height: 270px;
+}
+}
+@media screen and (max-width: 375px) {
+  .concept-modern-right {
+    font-size: 12px;
+    padding-top: 16%;
+  }
+  .concept-modern-left {
+    font-size: 20px;
+  }
+  .concept-func-header {
+    font-size: 26px;
+  }
+  .concept-func-description {
+    font-size: 11px;
+  }
+  .concept-door{
+    height: 260px;
+}
+div.vertical-line {
+    width: 2px;
+    margin-left: 8%;
+    height: 100%;
   }
 }
 </style>

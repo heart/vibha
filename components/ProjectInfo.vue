@@ -359,21 +359,21 @@ div.vertical-line {
   }
   .project-descriptio {
     font-size: 35px;
-}
+  }
 }
 @media screen and (max-width: 1500px) {
   .project-plan {
     width: 35%;
     font-size: 40px;
   }
-  .project-description{
+  .project-description {
     font-size: 33px;
-}
+  }
 }
 @media screen and (max-width: 1500px) {
-  .project-description{
+  .project-description {
     font-size: 32px;
-}
+  }
 }
 @media screen and (max-width: 1300px) {
   .type-actve {
@@ -420,12 +420,12 @@ div.vertical-line {
   }
 }
 @media screen and (max-width: 1000px) {
-  .project-description{
+  .project-description {
     font-size: 25px;
-}
-.project-header {
+  }
+  .project-header {
     font-size: 60px;
-}
+  }
 }
 @media screen and (max-width: 900px) {
   .type-actve {
@@ -434,9 +434,12 @@ div.vertical-line {
   .type-non-actve {
     font-size: 30px;
   }
-  .project-description{
+  .project-description {
     font-size: 22px;
-}
+  }
+  .textAlignVer {
+    font-size: 50px;
+  }
 }
 @media screen and (max-width: 825px) {
   .project-plan {
@@ -444,10 +447,100 @@ div.vertical-line {
   }
 }
 @media screen and (max-width: 768px) {
+  .project-header {
+    font-size: 35px;
+  }
+  .project-description {
+    font-size: 25px;
+  }
+  .project-plan {
+    width: 80%;
+    font-size: 25px;
+    margin-bottom: 20%;
+  }
+  .project-info-right-mobile {
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+  .project-info-right-desktop {
+    display: none;
+  }
+  .img-projectinfo {
+    width: 75%;
+  }
+  .Vibha-detail-top-img {
+    width: 40%;
+  }
+  .type-non-actve {
+    font-size: 16px;
+    padding: 5px;
+    height: 100%;
+    display: flex;
+    margin: 2%;
+    width: 22%;
+    justify-content: center;
+  }
+  .type-actve {
+    font-size: 16px;
+    padding: 5px;
+    height: 100%;
+    display: flex;
+    margin: 2%;
+    width: 22%;
+    justify-content: center;
+  }
+  .type-padding {
+    padding: 2%;
+  }
+  .textAlignVer {
+    font-size: 35px;
+    margin-left: 40%;
+  }
+  div.vertical-line {
+    height: 135%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .project-description {
+    font-size: 20px;
+  }
+  .textAlignVer {
+    font-size: 35px;
+    margin-left: 35%;
+  }
+  div.vertical-line {
+    height: 135%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .project-description {
+    font-size: 16px;
+  }
+  .textAlignVer {
+    font-size: 32px;
+    margin-left: 35%;
+  }
+  div.vertical-line {
+    height: 135%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .project-description {
+    font-size: 14px;
+  }
+  .textAlignVer {
+    font-size: 30px;
+    margin-left: 35%;
+  }
+  div.vertical-line {
+    height: 135%;
+  }
+}
+@media screen and (max-width: 375px) {
   .textAlignVer {
     font-size: 25px;
     margin-left: 31%;
-    margin-top: 160%;
     margin-top: 270%;
   }
   div.vertical-line {

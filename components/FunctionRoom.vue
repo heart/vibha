@@ -432,7 +432,6 @@ z-index: 1
 }
 }
 @media screen and (max-width: 1500px) {
-  // eiei
   .function-container {
   height: 74%;
 }

@@ -11,11 +11,11 @@
         <p>
           In 2020, the company has expanded the business to capture the
           potential for housing development in the Vibhavadi
-          Rangsit-Phaholyothin area, which is a high growth district. <br> It is
-          surrounded by various amenities including the Green and Red Skytrain
-          connects traveling to the inner and outer Bangkok. <br> The area also
-          provides easy access to department stores, universities, hospitals,
-          and parks that are scattered around the area.
+          Rangsit-Phaholyothin area, which is a high growth district. <br />
+          It is surrounded by various amenities including the Green and Red
+          Skytrain connects traveling to the inner and outer Bangkok. <br />
+          The area also provides easy access to department stores, universities,
+          hospitals, and parks that are scattered around the area.
         </p>
         <br />
         <p>
@@ -63,9 +63,9 @@
         <p class="Vibha-detail-description-swapDesktop">
           เชื่อมต่อทั้งกรุงเทพชั้นใน และชั้นนอกรวมถึงสถานที่สำคัญ ห้างสรรพสินค้า
           และสวนสาธารณะ ที่กระจายอยู่รอบพื้นที่ จึงริเริ่มโครงการ วิภา
-          เรสซิเดนท์ บ้านเดี่ยวระดับ
-          LUXURY มุ่งเน้นลูกค้าที่ต้องการที่อยู่อาศัยแนวราบที่เหมาะสม
-          ทั้งราคาและคุณภาพ โดยคาดว่า จะเริ่มก่อสร้างเฟสแรกในปี 2564
+          เรสซิเดนท์ บ้านเดี่ยวระดับ LUXURY
+          มุ่งเน้นลูกค้าที่ต้องการที่อยู่อาศัยแนวราบที่เหมาะสม ทั้งราคาและคุณภาพ
+          โดยคาดว่า จะเริ่มก่อสร้างเฟสแรกในปี 2564
         </p>
       </div>
       <div class="Vibha-detail-tree-center">
@@ -110,7 +110,7 @@ export default class VibhaDetail extends Vue {}
 }
 body {
   font-size: 0em;
-} 
+}
 .Vibha-detail-page {
   width: 100%;
   display: flex;
@@ -137,10 +137,10 @@ body {
   font-weight: bold;
 }
 .Vibha-detail-description-swapDesktop {
-    font-size: 25px;
-    font-family: "SukhumvitSet";
-    font-weight: bold;
-  }
+  font-size: 25px;
+  font-family: "SukhumvitSet";
+  font-weight: bold;
+}
 .Vibha-detail-top p {
   font-size: 88px;
   padding-left: 20%;
@@ -200,10 +200,85 @@ div.vertical-line {
 .Vibha-detail-description-swapMobile {
   display: none;
 }
+@media screen and (max-width: 1700px) {
+  div.vertical-line {
+    height: 121%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .Vibha-detail-top p {
+    font-size: 72px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .Vibha-detail-bottom {
+    font-size: 20px;
+  }
+  .Vibha-detail-description-swapDesktop {
+    font-size: 20px;
+  }
+  div.vertical-line {
+    height: 103%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .Vibha-detail-top p {
+    font-size: 66px;
+  }
+  div.vertical-line {
+    height: 103%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .Vibha-detail-top p {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  div.vertical-line {
+    height: 92%;
+  }
 
+  .Vibha-detail-top p {
+    font-size: 53px;
+  }
+  .Vibha-detail-bottom {
+    font-size: 18px;
+  }
+  .Vibha-detail-description-swapDesktop {
+    font-size: 18px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .Vibha-detail-bottom {
     font-size: 25px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Vibha-detail-bottom {
+    font-size: 16px;
+  }
+  .Vibha-detail-description-swapDesktop {
+    font-size: 16px;
+  }
+  div.vertical-line {
+    height: 83%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .Vibha-detail-top p {
+    font-size: 43px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .Vibha-detail-top p {
+    font-size: 40px;
+  }
+  .Vibha-detail-bottom {
+    font-size: 15px;
+  }
+  .Vibha-detail-description-swapDesktop {
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -211,7 +286,7 @@ div.vertical-line {
     width: 100%;
   }
   .Vibha-detail-bottom {
-    font-size: 12px;
+    font-size: 18px;
   }
   .Vibha-detail-top-img {
     margin-bottom: -8%;
@@ -219,7 +294,7 @@ div.vertical-line {
   }
   div.vertical-line {
     margin-top: -16%;
-    height: 155%;
+    height: 238%;
     width: 2px;
   }
   .Vibha-detail-page {
@@ -246,7 +321,7 @@ div.vertical-line {
   .Vibha-detail-swapMobile {
     width: 50%;
     padding: 2%;
-    font-size: 12px;
+    font-size: 17px;
     font-family: "SukhumvitSet";
     font-weight: bold;
   }
@@ -260,10 +335,98 @@ div.vertical-line {
   }
   .Vibha-detail-top p {
     font-size: 50px;
-}
-.project-type-option {
+  }
+  .project-type-option {
     height: 0%;
-
+  }
 }
+@media screen and (max-width: 700px) {
+  div.vertical-line {
+    height: 225%;
+  }
+}
+@media screen and (max-width: 600px) {
+  div.vertical-line {
+    height: 217%;
+  }
+}
+@media screen and (max-width: 500px) {
+  div.vertical-line {
+    height: 180%;
+  }
+  .Vibha-detail-bottom {
+    font-size: 15px;
+  }
+  .Vibha-detail-swapMobile {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  div.vertical-line {
+    height: 150%;
+  }
+  .Vibha-detail-swapMobile {
+    font-size: 12px;
+}
+.Vibha-detail-bottom {
+    font-size: 12px;
+}
+}
+@media screen and (max-width: 375px) {
+  .Vibha-detail-left {
+    width: 100%;
+  }
+  .Vibha-detail-bottom {
+    font-size: 12px;
+  }
+  .Vibha-detail-top-img {
+    margin-bottom: -8%;
+    margin-top: -3%;
+  }
+  div.vertical-line {
+    height: 145%;
+  }
+  .Vibha-detail-page {
+    display: block;
+  }
+  .Vibha-detail-right {
+    width: 100%;
+    font-size: 16px;
+  }
+  .Vibha-detail-img-mobile {
+    display: block;
+  }
+  .Vibha-detail-img-desktop {
+    display: none;
+  }
+  .Vibha-detail-description-swapDesktop {
+    display: none;
+  }
+  .Vibha-detail-description-swapMobile {
+    display: flex;
+    width: 100%;
+    padding-left: 12%;
+  }
+  .Vibha-detail-swapMobile {
+    width: 50%;
+    padding: 2%;
+    font-size: 11px;
+    font-family: "SukhumvitSet";
+    font-weight: bold;
+  }
+  .Vibha-detail-description-right {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .Vibha-detail-tree {
+    margin-left: -22%;
+    margin-top: -7%;
+  }
+  .Vibha-detail-top p {
+    font-size: 50px;
+  }
+  .project-type-option {
+    height: 0%;
+  }
 }
 </style>
