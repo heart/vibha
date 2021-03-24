@@ -188,7 +188,7 @@ div.vertical-line {
 }
 @media screen and (max-width: 1700px) {
   .kcc-title {
-    margin-top: -22%;
+    margin-top: -21%;
   }
 }
 @media screen and (max-width: 1600px) {
@@ -209,10 +209,53 @@ div.vertical-line {
     padding-right: 20%;
 }
 }
+@media screen and (max-width: 1570px) {
+  .kcc-title{
+    margin-top: -23%;
+}
+}
+@media screen and (max-width: 1500px) {
+  .kcc-title{
+    margin-top: -21%;
+}
+}
+@media screen and (max-width: 1475px) {
+  .kcc-title {
+    margin-top: -22%;
+}
+}
+@media screen and (max-width: 1450px) {
+  .kcc-title{
+    margin-top: -22%;
+}
+}
+@media screen and (max-width: 1425px) {
+  .kcc-title{
+    margin-top: -22.5%;
+}
+}
 @media screen and (max-width: 1400px) {
   .kcc {
     height: 300px;
   }
+  .kcc-title{
+    margin-top: -21%;
+}
+}
+@media screen and (max-width: 1375px) {
+  .kcc-title{
+    margin-top: -22%;
+}
+}
+@media screen and (max-width: 1350px) {
+  .kcc-title{
+    margin-top: -22%;
+}
+}
+@media screen and (max-width: 1325px) {
+  .kcc-title{
+    margin-top: -22.5%;
+}
 }
 @media screen and (max-width: 1300px) {
   .kcc {
@@ -225,12 +268,32 @@ div.vertical-line {
     margin-top: -19%;
 }
 }
+@media screen and (max-width: 1250px) {
+  .kcc-title {
+    margin-top: -20%;
+}
+}
+@media screen and (max-width: 1225px) {
+  .kcc-title {
+    margin-top: -20%;
+}
+}
 @media screen and (max-width: 1200px) {
   .kcc-title {
     font-size: 17px;
   }
   .kcc-title{
     margin-top: -20%;
+}
+}
+@media screen and (max-width: 1175px) {
+  .kcc-title {
+    margin-top: -21%;
+}
+}
+@media screen and (max-width: 1135px) {
+  .kcc-title {
+    margin-top: -22%;
 }
 }
 @media screen and (max-width: 1100px) {
@@ -242,6 +305,16 @@ div.vertical-line {
 }
 .textAlignVer {
     font-size: 50px;
+}
+}
+@media screen and (max-width: 1075px) {
+  .kcc-title {
+    margin-top: -23%;
+}
+}
+@media screen and (max-width: 1075px) {
+  .kcc-title {
+    margin-top: -24%;
 }
 }
 @media screen and (max-width: 1000px) {
@@ -283,6 +356,7 @@ div.vertical-line {
   }
   .textAlignVer {
     font-size: 35px;
+    margin-left: 30%;
   }
   div.vertical-line {
     width: 2px;
@@ -332,6 +406,12 @@ div.vertical-line {
 }
 .kcc-container {
     height: 230px;
+}
+}
+@media screen and (max-width: 560px) {
+  .kcc-title {
+    margin-top: -40%;
+    font-size: 16px;
 }
 }
 @media screen and (max-width: 500px) {

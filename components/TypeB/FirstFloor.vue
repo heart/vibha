@@ -32,7 +32,7 @@ export default class FirstFloor extends Vue {
   align-content: center;
 }
 .project-plan-img{
-  width: 50%;
+  width: 30%;
   text-align: center;
 }
 .project-plan-title{

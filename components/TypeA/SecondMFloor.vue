@@ -3,7 +3,7 @@
     <div class="project-center">
       <img class="project-plan-img" src="/TypeA/A-F02M.jpg" >
     </div>
-    <h1 class="project-titile">MEZZANINE </h1>
+    <h1 class="project-titile">2M FLOOR PLAN</h1>
   </div>
 </template>
 
@@ -32,7 +32,7 @@ export default class SecondMFloor extends Vue {
   align-content: center;
 }
 .project-plan-img{
-  width: 40%;
+  width: 30%;
   text-align: center;
 }
 .project-plan-title{

@@ -14,10 +14,6 @@
               (Vibhavadi Hospital)
             </p>
           </div>
-          <!-- <div class="divFlex-left">
-            <img class="phone-icon" src="~assets/icon/phone-icon.png" />
-            <p class="footer-tel">095-632-6356</p>
-          </div> -->
         </div>
         <br />
         <div class="footer-left-bottom">
@@ -61,16 +57,6 @@
       <div class="footer-right">
         <p class="footer-bold">SALES TEAM CONTACT</p>
         <div class="divFlex-center-column">
-          <!-- <div class="divFlex-center">
-            <img class="phone-icon-center" src="~assets/icon/phone-icon.png" />
-            <img class="mail-icon" src="~assets/icon/mail-icon.png" />
-          </div>
-          <div class="divFlex-center-font">
-            <p class="footer-tel-center">095-632-6356</p>
-            <p class="footer-mail footer-description">
-              VIBHASALES@KCCTHAILAND.COM
-            </p>
-          </div> -->
           <div class="div-contact-right">
             <img class="phone-icon" src="~assets/icon/phone-icon.png" />
             <p class="footer-tel">095-632-6356</p>
@@ -82,7 +68,6 @@
             </p>
           </div>
         </div>
-
         <br />
         <div class="divFlex-right">
           <img class="line-icon" src="~assets/icon/line-icon.png" />
@@ -107,10 +92,6 @@
               (Vibhavadi Hospital)
             </p>
           </div>
-          <!-- <div class="divFlex-left">
-            <img class="phone-icon" src="~assets/icon/phone-icon.png" />
-            <p class="footer-tel">095-632-6356</p>
-          </div> -->
         </div>
         <br />
         <div class="footer-left-bottom">
@@ -201,6 +182,7 @@ export default class Footer extends Vue {}
   width: 100%;
   display: flex;
   margin-top: 2%;
+  align-items: flex-start;
 }
 .footer-tel {
   font-family: "SukhumvitSet";
@@ -316,11 +298,13 @@ export default class Footer extends Vue {}
   display: flex;
   justify-content: center;
   margin-left: -20%;
+  align-items: flex-start;
 }
 .divFlex-center {
   display: flex;
   flex-direction: column;
   width: 10%;
+  align-items: flex-start;
 }
 .divFlex-center img {
   width: 100%;
@@ -338,6 +322,7 @@ export default class Footer extends Vue {}
   display: flex;
   margin-top: -5%;
   margin-left: -1%;
+  align-items: flex-start;
 }
 .footer-line {
   margin-left: 3%;
@@ -358,6 +343,7 @@ export default class Footer extends Vue {}
   display: flex;
   width: 100%;
   padding-left: 7%;
+  align-items: flex-start;
 }
 .footer-location a {
   width: 100%;

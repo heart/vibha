@@ -243,6 +243,11 @@ div.vertical-line {
     font-size: 16px;
   }
 }
+@media screen and (max-width: 560px){
+  .Vibhahome-title {
+    font-size: 14px;
+}
+}
 @media screen and (max-width: 500px){
   .Vibhahome-title {
     font-size: 12px;

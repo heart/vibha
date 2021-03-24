@@ -32,7 +32,7 @@ export default class ThirdFloor extends Vue {
   align-content: center;
 }
 .project-plan-img{
-  width: 40%;
+  width: 30%;
   text-align: center;
 }
 .project-plan-title{
