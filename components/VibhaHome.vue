@@ -73,11 +73,12 @@ export default class VibhaHome extends Vue {}
   background-color: #93a49e;
   width: 100%;
   font-family: "DB-Ozone-X";
-  // height: 200%;
+  height: 100%;
 }
 .Vibhahome-img {
   text-align: right;
   width: 90%;
+  // height: 800px;
 }
 .Vibhahome-page-row {
   display: flex;
@@ -153,39 +154,77 @@ div.vertical-line {
   margin-top: 1.25%;
 }
 @media screen and (max-width: 1800px) {
-  .Vibhahome-title{
+  .Vibhahome-title {
     font-size: 20px;
+  }
 }
+@media screen and (max-width: 1650px) {
+  .Vibhahome-img {
+    // height: 750px;
+  }
 }
-@media screen and (max-width: 1350px){
+@media screen and (max-width: 1650px) {
+  .Vibhahome-img {
+    // height: 750px;
+  }
+}
+@media screen and (max-width: 1350px) {
   .Vibhahome-title-right {
     margin-top: -2%;
-}
-.Vibhahome-title {
+  }
+  .Vibhahome-title {
     font-size: 18px;
+  }
+  .Vibhahome-img {
+  // height: 650px;
 }
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1300px) {
+  .Vibhahome-img {
+  // height: 600px;
+}
+}
+@media screen and (max-width: 1250px) {
+  .Vibhahome-img {
+  // height: 550px;
+}
+}
+@media screen and (max-width: 1200px) {
   .Vibhahome-title {
     font-size: 16px;
+  }
+  
 }
-}
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px) {
   .Vibhahome-title {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Vibhahome-img {
+  // height: 500px;
 }
 }
-@media screen and (max-width: 950px){
+
+@media screen and (max-width: 950px) {
   .Vibhahome-title {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .Vibhahome-img {
+  // height: 450px;
 }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
   .Vibhahome-title {
     font-size: 10px;
+  }
+  .Vibhahome-img {
+  // height: 400px;
 }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .vibhahome-desktop {
     display: none;
   }
@@ -224,7 +263,7 @@ div.vertical-line {
     margin-top: -4%;
     margin-left: 20%;
   }
-  .vertical-line-left-mobile{
+  .vertical-line-left-mobile {
     width: 45%;
     margin-top: 2%;
   }
@@ -236,31 +275,31 @@ div.vertical-line {
   }
   div.vertical-line {
     height: 2px;
+  }
 }
-}
-@media screen and (max-width: 630px){
+@media screen and (max-width: 630px) {
   .Vibhahome-title {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 560px){
+@media screen and (max-width: 560px) {
   .Vibhahome-title {
     font-size: 14px;
+  }
 }
-}
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   .Vibhahome-title {
     font-size: 12px;
+  }
 }
-}
-@media screen and (max-width: 420px){
+@media screen and (max-width: 420px) {
   .Vibhahome-title {
     font-size: 10px;
+  }
 }
-}
-@media screen and (max-width: 350px){
+@media screen and (max-width: 350px) {
   .Vibhahome-title {
     font-size: 8px;
-}
+  }
 }
 </style>

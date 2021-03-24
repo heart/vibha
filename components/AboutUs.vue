@@ -203,59 +203,59 @@ div.vertical-line {
   .kcc-title {
     margin-top: -21%;
   }
-  .about-us-description{
+  .about-us-description {
     font-size: 30px;
     margin: 2%;
     padding-right: 20%;
-}
+  }
 }
 @media screen and (max-width: 1570px) {
-  .kcc-title{
+  .kcc-title {
     margin-top: -23%;
-}
+  }
 }
 @media screen and (max-width: 1500px) {
-  .kcc-title{
+  .kcc-title {
     margin-top: -21%;
-}
+  }
 }
 @media screen and (max-width: 1475px) {
   .kcc-title {
     margin-top: -22%;
-}
+  }
 }
 @media screen and (max-width: 1450px) {
-  .kcc-title{
+  .kcc-title {
     margin-top: -22%;
-}
+  }
 }
 @media screen and (max-width: 1425px) {
-  .kcc-title{
+  .kcc-title {
     margin-top: -22.5%;
-}
+  }
 }
 @media screen and (max-width: 1400px) {
   .kcc {
     height: 300px;
   }
-  .kcc-title{
+  .kcc-title {
     margin-top: -21%;
-}
+  }
 }
 @media screen and (max-width: 1375px) {
-  .kcc-title{
+  .kcc-title {
     margin-top: -22%;
-}
+  }
 }
 @media screen and (max-width: 1350px) {
-  .kcc-title{
+  .kcc-title {
     margin-top: -22%;
-}
+  }
 }
 @media screen and (max-width: 1325px) {
-  .kcc-title{
+  .kcc-title {
     margin-top: -22.5%;
-}
+  }
 }
 @media screen and (max-width: 1300px) {
   .kcc {
@@ -264,58 +264,58 @@ div.vertical-line {
   .kcc-title {
     font-size: 20px;
   }
-  .kcc-title{
+  .kcc-title {
     margin-top: -19%;
-}
+  }
 }
 @media screen and (max-width: 1250px) {
   .kcc-title {
     margin-top: -20%;
-}
+  }
 }
 @media screen and (max-width: 1225px) {
   .kcc-title {
     margin-top: -20%;
-}
+  }
 }
 @media screen and (max-width: 1200px) {
   .kcc-title {
     font-size: 17px;
   }
-  .kcc-title{
+  .kcc-title {
     margin-top: -20%;
-}
+  }
 }
 @media screen and (max-width: 1175px) {
   .kcc-title {
     margin-top: -21%;
-}
+  }
 }
 @media screen and (max-width: 1135px) {
   .kcc-title {
     margin-top: -22%;
-}
+  }
 }
 @media screen and (max-width: 1100px) {
   .kcc-title {
     margin-top: -22%;
   }
-  .about-us-description{
+  .about-us-description {
     font-size: 24px;
-}
-.textAlignVer {
+  }
+  .textAlignVer {
     font-size: 50px;
-}
+  }
 }
 @media screen and (max-width: 1075px) {
   .kcc-title {
     margin-top: -23%;
-}
+  }
 }
 @media screen and (max-width: 1075px) {
   .kcc-title {
     margin-top: -24%;
-}
+  }
 }
 @media screen and (max-width: 1000px) {
   .kcc {
@@ -330,7 +330,7 @@ div.vertical-line {
   }
   .about-us-description {
     font-size: 22px;
-}
+  }
 }
 @media screen and (max-width: 900px) {
   .kcc-title {
@@ -338,7 +338,7 @@ div.vertical-line {
   }
   .textAlignVer {
     font-size: 45px;
-}
+  }
 }
 @media screen and (max-width: 800px) {
   .kcc {
@@ -346,7 +346,7 @@ div.vertical-line {
   }
   .textAlignVer {
     font-size: 40px;
-}
+  }
 }
 @media screen and (max-width: 768px) {
   .about-us-description {
@@ -379,49 +379,52 @@ div.vertical-line {
   .kcc-container {
     width: 50%;
     height: 290px;
-}
-.kcc-title{
+  }
+  .kcc-title {
     font-size: 20px;
-        margin-top: -36%;
-}
-.about-us-logo {
+    margin-top: -36%;
+  }
+  .about-us-logo {
     width: 50%;
-}
-.about-us-logo {
+  }
+  .about-us-logo {
     padding-top: 5%;
-}
-.about-us-description{
+  }
+  .about-us-description {
     font-size: 18px;
-}
+  }
 }
 @media screen and (max-width: 700px) {
   .kcc-title {
     margin-top: -40%;
-}
+  }
 }
 @media screen and (max-width: 600px) {
   .kcc-title {
     margin-top: -37%;
     font-size: 16px;
-}
-.kcc-container {
+  }
+  .kcc-container {
     height: 230px;
-}
+  }
 }
 @media screen and (max-width: 560px) {
   .kcc-title {
     margin-top: -40%;
     font-size: 16px;
-}
+  }
+  .textAlignVer {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 500px) {
   .kcc-title {
     margin-top: -37%;
     font-size: 16px;
-}
-.kcc-container {
+  }
+  .kcc-container {
     height: 190px;
-}
+  }
 }
 @media screen and (max-width: 400px) {
   .about-us-description {
@@ -459,13 +462,13 @@ div.vertical-line {
   }
   .kcc-title {
     font-size: 12px;
-}
-.about-us-logo{
+  }
+  .about-us-logo {
     padding-top: 5%;
-}
-.about-us-description{
+  }
+  .about-us-description {
     margin: 1%;
-}
+  }
 }
 @media screen and (max-width: 375px) {
   .about-us-description {
@@ -511,8 +514,6 @@ div.vertical-line {
   }
   .about-us-logo {
     padding-top: 5%;
+  }
 }
-}
-
-
 </style>

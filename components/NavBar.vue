@@ -27,7 +27,7 @@
       </b-navbar-item>
       <b-navbar-item
         v-scroll-to="{ el: '#contactus' }"
-        class="nav-item nav-padding-right"
+        class="nav-item"
       >
         CONTACT US
         <hr class="line" />
