@@ -73,7 +73,7 @@
 
           <div class="type-container powerRoom-container">
             <div class="type-img-container powerRoom-icon">
-              <img class="type-img" src="~assets/icon/type-1_4.png" />
+              <img class="type-img" src="~assets/icon/type-1_6.png" />
             </div>
             <div class="type-title-container">
               <p class="type-title">1 Powder room</p>
@@ -109,7 +109,7 @@
           </div>
           <div class="type-container powerRoom-container">
             <div class="type-img-container powerRoom-icon">
-              <img class="type-img" src="~assets/icon/type-1_4.png" />
+              <img class="type-img" src="~assets/icon/type-1_6.png" />
             </div>
             &nbsp;
             <div class="type-title-container">
@@ -279,7 +279,7 @@ export default class ProjectTypeB extends Vue {
 }
 .type-img {
   width: 100%;
-  height: 100%;
+  //height: 100%;
 }
 .type-title-container {
   width: 90%;
