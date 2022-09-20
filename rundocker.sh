@@ -1,3 +1,4 @@
 docker system prune -af
 git pull
-docker-compose up -d
+docker-compose down
+docker-compose up -d --build
