@@ -76,7 +76,7 @@
               <img class="type-img" src="~assets/icon/type-1_4.png" />
             </div>
             <div class="type-title-container">
-              <p class="type-title">1 Power room</p>
+              <p class="type-title">1 Powder room</p>
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@
             </div>
             &nbsp;
             <div class="type-title-container">
-              <p class="type-title">1 Power room</p>
+              <p class="type-title">1 Powder room</p>
             </div>
           </div>
           <div class="type-container rooftop-container">

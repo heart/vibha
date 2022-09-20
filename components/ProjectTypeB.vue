@@ -18,8 +18,8 @@
           <br />
           <p class="project-type-Topic">USABLE AREA :</p>
           <p class="project-type-description">
-            496.97 SQ. METRE
-            <span class="project-description-inner">(Rooftop included)</span>
+            406 SQ. METRE
+            <!-- <span class="project-description-inner">(Rooftop included)</span> -->
           </p>
         </div>
       </div>
@@ -56,7 +56,7 @@
                   <span class="symbol">/</span>
                   <span class="bottom">2</span>
                 </span>
-                &nbsp;&nbsp;Storey with rooftop
+                &nbsp;&nbsp;Storey
               </p>
             </div>
           </div>
@@ -76,7 +76,7 @@
               <img class="type-img" src="~assets/icon/type-1_4.png" />
             </div>
             <div class="type-title-container">
-              <p class="type-title">1 Power room</p>
+              <p class="type-title">1 Powder room</p>
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@
             </div>
             &nbsp;
             <div class="type-title-container">
-              <p class="type-title">1 Power room</p>
+              <p class="type-title">1 Powder room</p>
             </div>
           </div>
           <div class="type-container rooftop-container">
@@ -128,7 +128,7 @@
                   <span class="symbol">/</span>
                   <span class="bottom">2</span>
                 </span>
-                &nbsp;&nbsp;Storey with rooftop
+                &nbsp;&nbsp;Storey
               </p>
             </div>
           </div>

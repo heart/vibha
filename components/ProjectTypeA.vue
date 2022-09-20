@@ -5,21 +5,21 @@
         <img class="type-bg" src="/type-bg.jpg" alt="" />
         <div class="project-type-left-padding">
           <span class="type-non-actve">
-              <p class="type-padding">T</p>
-              <p class="type-padding">Y</p>
-              <p class="type-padding">P</p>
-              <p class="type-padding">E</p>
-              &nbsp;&nbsp;
-              <p class="type-padding">A</p>
-            </span>
+            <p class="type-padding">T</p>
+            <p class="type-padding">Y</p>
+            <p class="type-padding">P</p>
+            <p class="type-padding">E</p>
+            &nbsp;&nbsp;
+            <p class="type-padding">A</p>
+          </span>
           <br />
           <p class="project-type-Topic project-paddingtop">LAND AREA :</p>
           <p class="project-type-description">61.1 SQ.WAH / 53 SQ.WAH</p>
           <br />
           <p class="project-type-Topic">USABLE AREA :</p>
           <p class="project-type-description">
-            561.31 SQ. METRE
-            <span class="project-description-inner">(Rooftop included)</span>
+            459.56 SQ. METRE
+            <!-- <span class="project-description-inner">(Rooftop included)</span> -->
           </p>
         </div>
       </div>
@@ -56,7 +56,7 @@
                   <span class="symbol">/</span>
                   <span class="bottom">2</span>
                 </span>
-                &nbsp;&nbsp;Storey with rooftop
+                &nbsp;&nbsp;Storey
               </p>
             </div>
           </div>
@@ -76,7 +76,7 @@
               <img class="type-img" src="~assets/icon/type-1_4.png" />
             </div>
             <div class="type-title-container">
-              <p class="type-title">1 Power room</p>
+              <p class="type-title">1 Powder room</p>
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@
             </div>
             &nbsp;
             <div class="type-title-container">
-              <p class="type-title">1 Power room</p>
+              <p class="type-title">1 Powder room</p>
             </div>
           </div>
           <div class="type-container rooftop-container">
@@ -128,7 +128,7 @@
                   <span class="symbol">/</span>
                   <span class="bottom">2</span>
                 </span>
-                &nbsp;&nbsp;Storey with rooftop
+                &nbsp;&nbsp;Storey
               </p>
             </div>
           </div>
@@ -412,37 +412,33 @@ export default class ProjectTypeA extends Vue {
   justify-content: center;
   margin-left: -2%;
 }
-.type-padding{
-    padding: 2%;
-  }
+.type-padding {
+  padding: 2%;
+}
 @media screen and (max-width: 1700px) {
-.project-type-bottom{
-
+  .project-type-bottom {
     padding-top: 20%;
-
-}
-.square {
+  }
+  .square {
     height: 106%;
-}
+  }
 }
 @media screen and (max-width: 1600px) {
-.project-type-bottom{
-
+  .project-type-bottom {
     padding-top: 20%;
-
-}
-.project-type-Topic{
+  }
+  .project-type-Topic {
     font-size: 30px;
-}
-.project-type-description{
+  }
+  .project-type-description {
     font-size: 20px;
-}
-.type-title{
+  }
+  .type-title {
     font-size: 30px;
-}
-.square {
+  }
+  .square {
     height: 106%;
-}
+  }
 }
 @media screen and (max-width: 1400px) {
   .project-type-Topic {
@@ -471,40 +467,40 @@ export default class ProjectTypeA extends Vue {
   }
   .type-img-container {
     width: 23%;
-}
-.type-title {
+  }
+  .type-title {
     font-size: 24px;
-}
-.project-type-left-padding{
+  }
+  .project-type-left-padding {
     padding-top: 23%;
-}
+  }
 }
 @media screen and (max-width: 1300px) {
-.square {
+  .square {
     height: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
-.project-type-Topic{
+  .project-type-Topic {
     font-size: 25px;
-}
-.project-type-description {
+  }
+  .project-type-description {
     font-size: 17px;
-}
-.square {
+  }
+  .square {
     height: 92%;
   }
 }
 @media screen and (max-width: 1100px) {
-.type-title{
+  .type-title {
     font-size: 22px;
-}
-.project-type-description{
+  }
+  .project-type-description {
     font-size: 15px;
-}
-.square {
+  }
+  .square {
     height: 85%;
-}
+  }
 }
 @media screen and (max-width: 1024px) {
   .type-container-mobile {
@@ -583,10 +579,10 @@ export default class ProjectTypeA extends Vue {
   .project-type {
     flex-direction: column;
   }
-  .square{
+  .square {
     height: 131.7%;
     width: 35%;
-}
+  }
   .project-type-option {
     width: 35%;
   }
@@ -625,80 +621,80 @@ export default class ProjectTypeA extends Vue {
   }
   .type-non-actve {
     width: 40%;
-}
+  }
 }
 @media screen and (max-width: 800px) {
   .square {
     height: 102.7%;
   }
-  .type-non-actve{
+  .type-non-actve {
     font-size: 35px;
-}
+  }
 }
 @media screen and (max-width: 700px) {
   .square {
-        height: 89.7%;
+    height: 89.7%;
   }
-  .type-non-actve{
+  .type-non-actve {
     font-size: 35px;
-}
-.project-type-description {
+  }
+  .project-type-description {
     font-size: 18px;
-}
-.type-title {
+  }
+  .type-title {
     font-size: 18px;
-}
+  }
 }
 @media screen and (max-width: 600px) {
   .square {
     height: 76.7%;
   }
-  .type-non-actve{
+  .type-non-actve {
     font-size: 27px;
-}
-.project-type-option {
+  }
+  .project-type-option {
     font-size: 20px;
-}
-.project-type-bottom {
+  }
+  .project-type-bottom {
     padding-left: 2%;
-}
+  }
 }
 @media screen and (max-width: 500px) {
   .square {
     height: 63.7%;
   }
-  .type-non-actve{
+  .type-non-actve {
     font-size: 23px;
-}
-.project-type-option {
+  }
+  .project-type-option {
     font-size: 17px;
-}
-.project-type-bottom {
+  }
+  .project-type-bottom {
     padding-left: 2%;
-}
-.project-type-Topic {
+  }
+  .project-type-Topic {
     font-size: 20px;
-}
-.project-type-description{
+  }
+  .project-type-description {
     font-size: 12px;
-}
+  }
 }
 @media screen and (max-width: 400px) {
-.square {
+  .square {
     height: 51%;
   }
   .type-non-actve {
     width: 50%;
-}
-.project-type-option {
+  }
+  .project-type-option {
     font-size: 15px;
-}
-.project-type-bottom {
+  }
+  .project-type-bottom {
     padding-left: 0%;
-}
-.type-title {
+  }
+  .type-title {
     font-size: 15px;
-}
+  }
 }
 @media screen and (max-width: 375px) {
   .type-container-mobile {
