@@ -1,12 +1,7 @@
-FROM node:14-alpine as build-stage
+FROM node:14-alpine
 WORKDIR /app
-COPY package*.json ./
-COPY yarn.lock ./
-RUN yarn
 COPY . .
-RUN yarn generate
+RUN rm -rf node_moddules
+RUN yarn
 
-FROM nginx:1.23.1-alpine as production-stage
-COPY --from=build-stage /app/dist /usr/share/nginx/html
-EXPOSE 80
-# CMD ["nginx", "-g", "daemon off;"]
+CMD ["yarn", "start"]
