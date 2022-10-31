@@ -35,19 +35,7 @@
         <div class="footer-location">
           <img class="location-icon" src="~assets/icon/location-icon.png" />
           <a class="map-link" href="https://goo.gl/maps/c28zQYR7dTkftdvN8"
-            ><span class="footer-map">
-              <span class="footer-map-padding">G</span>
-              <span class="footer-map-padding">O</span>
-              <span class="footer-map-padding">O</span>
-              <span class="footer-map-padding">G</span>
-              <span class="footer-map-padding">L</span>
-              <span class="footer-map-padding">E</span>
-              &nbsp;
-              <span class="footer-map-padding">M</span>
-              <span class="footer-map-padding">A</span>
-              <span class="footer-map-padding">P</span>
-              <!-- GOOGLE MAP -->
-            </span></a
+            ><span class="footer-map">GOOGLE MAPS</span></a
           >
         </div>
         <img class="footer-logo" src="/footer-logo.png" />
@@ -242,6 +230,8 @@ export default class Footer extends Vue {}
   margin-left: 10%;
 }
 .footer-map {
+  white-space: nowrap;
+
   border: 1px solid #b7bcb4;
   width: 50%;
   text-align: center;
@@ -254,9 +244,7 @@ export default class Footer extends Vue {}
   font-size: 22px;
   margin-left: 5%;
 }
-.footer-map-padding {
-  margin: 0.2%;
-}
+
 .footer-bold {
   font-weight: bold;
 }
@@ -428,9 +416,6 @@ export default class Footer extends Vue {}
   }
 }
 @media screen and (max-width: 1400px) {
-  .footer-map-padding {
-    margin: -0.8%;
-  }
   .line-icon {
     width: 14%;
   }
