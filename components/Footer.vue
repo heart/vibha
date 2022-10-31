@@ -251,7 +251,7 @@ export default class Footer extends Vue {}
   padding-bottom: 2%;
   font-family: "SukhumvitSet";
   font-weight: bold;
-  font-size: 30px;
+  font-size: 22px;
   margin-left: 5%;
 }
 .footer-map-padding {
@@ -283,7 +283,7 @@ export default class Footer extends Vue {}
   width: 9%;
   margin: 1%;
   margin-right: 4%;
-  padding-top: 1% ;
+  padding-top: 1%;
 }
 .location-icon {
   width: 10%;
@@ -467,7 +467,7 @@ export default class Footer extends Vue {}
     margin-top: -10%;
   }
   .footer-map {
-    font-size: 30px;
+    font-size: 25px;
   }
   .phone-icon {
     width: 12%;
@@ -485,15 +485,15 @@ export default class Footer extends Vue {}
     width: 9%;
     margin: 1%;
   }
-  .footer-location{
+  .footer-location {
     padding-left: 5%;
-}
+  }
 }
 @media screen and (max-width: 1300px) {
   .location-icon {
     width: 16%;
     padding: 2%;
-}
+  }
 }
 @media screen and (max-width: 1200px) {
   .phone-ico {
@@ -526,7 +526,7 @@ export default class Footer extends Vue {}
     margin-top: -14%;
   }
   .footer-map {
-    font-size: 22px;
+    font-size: 18px;
   }
   .phone-icon {
     width: 11%;
@@ -556,10 +556,10 @@ export default class Footer extends Vue {}
   .divFlex {
     margin-left: 1%;
   }
-  .location-icon{
+  .location-icon {
     width: 22%;
     padding: 4%;
-}
+  }
 }
 @media screen and (max-width: 900px) {
   .divFlex {
@@ -569,14 +569,14 @@ export default class Footer extends Vue {}
     width: 22%;
     padding: 5%;
   }
-  .footer-bg{
+  .footer-bg {
     height: 30%;
-}
-.phone-icon {
+  }
+  .phone-icon {
     width: 11%;
     margin: 1%;
     margin-right: 3%;
-}
+  }
 }
 @media screen and (max-width: 850px) {
   .footer-bold {
@@ -600,25 +600,25 @@ export default class Footer extends Vue {}
   }
   .footer-bg {
     height: 27%;
-}
-.location-icon{
-  width: 24%;
+  }
+  .location-icon {
+    width: 24%;
     margin-left: -5%;
 
-.footer-map {
-    font-size: 17px;
-}
-}
+    .footer-map {
+      font-size: 17px;
+    }
+  }
 }
 @media screen and (max-width: 800px) {
   .footer-map {
     font-size: 16px;
-}
+  }
 }
 @media screen and (max-width: 768px) {
-  .footer-bg{
+  .footer-bg {
     margin-top: -10%;
-}
+  }
   .footer-container {
     font-size: 16px;
     height: 540px;
@@ -651,10 +651,10 @@ export default class Footer extends Vue {}
     width: 100%;
     display: flex;
   }
-  .line-icon{
+  .line-icon {
     width: 13%;
     height: 50%;
-}
+  }
   .footer-line {
     width: 30%;
     font-size: 22px;
@@ -741,13 +741,13 @@ export default class Footer extends Vue {}
   .footer-line {
     font-size: 18px;
   }
-  .phone-icon{
+  .phone-icon {
     width: 9%;
     margin: 1%;
-}
-.divFlex-center-font p{
+  }
+  .divFlex-center-font p {
     margin-top: 9%;
-}
+  }
 }
 @media screen and (max-width: 500px) {
   .footer-container {
@@ -765,17 +765,17 @@ export default class Footer extends Vue {}
     font-size: 16px;
     height: 490px;
     padding-top: 15%;
-}
-.divFlex-left {
+  }
+  .divFlex-left {
     margin-left: -8%;
-}
-.footer-logo{
+  }
+  .footer-logo {
     margin-top: 50%;
-}
-.location-icon {
+  }
+  .location-icon {
     width: 12%;
     padding: 0%;
-}
+  }
 }
 @media screen and (max-width: 400px) {
   .footer-mobile {
@@ -842,30 +842,30 @@ export default class Footer extends Vue {}
   .divFlex-center-column {
     display: flex;
   }
-  .divFlex-center-font p{
+  .divFlex-center-font p {
     margin-top: 15%;
-}
+  }
   .divFlex-center-font {
     margin-left: 5%;
   }
   .footer-bold {
     font-size: 16px;
   }
-  .divFlex-center img{
+  .divFlex-center img {
     width: 100%;
     margin-top: 65%;
-}
-.location-icon {
+  }
+  .location-icon {
     width: 14%;
     padding: 0%;
-}
-.footer-location{
-      margin-left: -3%;
-}
-.phone-icon{
+  }
+  .footer-location {
+    margin-left: -3%;
+  }
+  .phone-icon {
     width: 11%;
     margin: 1%;
-}
+  }
 }
 @media screen and (max-width: 375px) {
   .footer-mobile {
@@ -950,9 +950,9 @@ export default class Footer extends Vue {}
   }
   .location-icon {
     padding: 1%;
-}
-.divFlex-center-font p{
+  }
+  .divFlex-center-font p {
     margin-top: 19%;
-}
+  }
 }
 </style>
