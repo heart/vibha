@@ -156,19 +156,19 @@
           <p @click="onClick_Rooftop">ROOFTOP</p>
         </div> -->
       </div>
-      <b-modal v-model="FirstFloor" id="modal-1" title="BootstrapVue">
+      <b-modal v-model="showFirstFloor" id="modal-1" title="BootstrapVue">
         <FirstFloor />
       </b-modal>
-      <b-modal v-model="SecondFloor" id="modal-1" title="BootstrapVue">
+      <b-modal v-model="showSecondFloor" id="modal-1" title="BootstrapVue">
         <SecondFloor />
       </b-modal>
-      <b-modal v-model="SecondMFloor" id="modal-1" title="BootstrapVue">
+      <b-modal v-model="showSecondMFloor" id="modal-1" title="BootstrapVue">
         <SecondMFloor />
       </b-modal>
-      <b-modal v-model="ThirdFloor" id="modal-1" title="BootstrapVue">
+      <b-modal v-model="showThirdFloor" id="modal-1" title="BootstrapVue">
         <ThirdFloor />
       </b-modal>
-      <b-modal v-model="Rooftop" id="modal-1" title="BootstrapVue">
+      <b-modal v-model="showRooftop" id="modal-1" title="BootstrapVue">
         <Rooftop />
       </b-modal>
 
@@ -195,25 +195,26 @@ import Rooftop from "../components/TypeA/Rooftop.vue";
   },
 })
 export default class ProjectTypeA extends Vue {
-  FirstFloor = false;
-  SecondFloor = false;
-  SecondMFloor = false;
-  ThirdFloor = false;
-  Rooftop = false;
+  showFirstFloor = false;
+  showSecondFloor = false;
+  showSecondMFloor = false;
+  showThirdFloor = false;
+  showRooftop = false;
+
   onClick_FirstFloor() {
-    this.FirstFloor = !this.FirstFloor;
+    this.showFirstFloor = !this.showFirstFloor;
   }
   onClick_SecondFloor() {
-    this.SecondFloor = !this.SecondFloor;
+    this.showSecondFloor = !this.showSecondFloor;
   }
   onClick_SecondMFloor() {
-    this.SecondMFloor = !this.SecondMFloor;
+    this.showSecondMFloor = !this.showSecondMFloor;
   }
   onClick_ThirdFloor() {
-    this.ThirdFloor = !this.ThirdFloor;
+    this.showThirdFloor = !this.showThirdFloor;
   }
   onClick_Rooftop() {
-    this.Rooftop = !this.Rooftop;
+    this.showRooftop = !this.showRooftop;
   }
 }
 </script>
